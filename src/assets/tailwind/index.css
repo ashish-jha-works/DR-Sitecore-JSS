@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+/* Design system */
+@import './theme.css';
+
+/* Base */
+@import './base/root.css';
+@import './base/typography.css';
+
+/* Utilities */
+@import './utilities/effects.css';
+@import './utilities/transitions.css';
+
+/* Components */
+@import './components/button.css';
+@import './components/container.css';
+@import './components/info-message.css';
+@import './components/loader.css';
+@import './components/form.css';
+@import './components/select-dropdown.css';
+@import './components/search.css';
+@import './components/slider.css';
+@import './components/data-table.css';
+@import './components/modal.css';
+@import './components/calendar.css';

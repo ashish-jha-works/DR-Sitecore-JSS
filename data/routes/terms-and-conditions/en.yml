@@ -1,0 +1,794 @@
+id: terms-and-conditions
+routeFields:
+  pageTitle: Terms and Conditions
+fields:
+  pageTitle: Dubai Properties - Terms and Conditions
+placeholders:
+  jss-main:
+  - componentName: Header
+    fields:
+      logoLink:
+        href: /
+        text: Home
+        target: _self
+        title: Go to Home
+      logoImage:
+        src: /data/media/img/svg/dubai-residential-logo-white.svg
+        alt: Dubai Residential Logo
+        width: 90
+        height: 56
+  - componentName: PageBanner
+    fields:
+      heading: Terms & conditions
+      bannerImage:
+        src: /data/media/img/service-requests-banner.png
+        alt: Terms and Conditions Banner
+        width: 1920
+        height: 300
+  - componentName: LegalContentPage
+    fields:
+      content: '<style>
+
+.LegalContentPage {
+  background-color: #ffffff;
+  padding-bottom: 3rem;
+}
+@media (min-width: 48rem) {
+  .LegalContentPage {
+    padding-bottom: 4rem;
+  }
+}
+.LegalContentPage__inner {
+  max-width: 60.625rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 0.75rem;
+}
+@media (min-width: 48rem) {
+  .LegalContentPage__inner {
+    padding: 3rem 0.75rem;
+  }
+}
+.LegalContentPage__accordion {
+  margin-top: 1.5rem;
+  border-bottom: 1px solid #c4caff;
+  padding: 1rem 0;
+  scroll-margin-top: 6rem;
+}
+@media (min-width: 48rem) {
+  .LegalContentPage__accordion {
+    margin-top: 1.25rem;
+  }
+}
+.LegalContentPage__accordion-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 12px;
+  cursor: pointer;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.57;
+  color: #1a2039;
+}
+.LegalContentPage__accordion-summary > span:first-child {
+  flex: 1;
+  min-width: 0;
+}
+.LegalContentPage__accordion-summary::-webkit-details-marker {
+  display: none;
+}
+.LegalContentPage__accordion-summary::marker {
+  content: '''';
+}
+.LegalContentPage__accordion-summary::after {
+  content: '''';
+  flex-shrink: 0;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-right: 2px solid #9ca7ff;
+  border-bottom: 2px solid #9ca7ff;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+  margin-top: -0.15rem;
+}
+.LegalContentPage__accordion[open] > .LegalContentPage__accordion-summary::after {
+  transform: rotate(225deg);
+  margin-top: 0.15rem;
+}
+.LegalContentPage__accordion-body {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.57;
+  color: #1a2039;
+}
+.LegalContentPage h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #1a2039;
+  margin: 0 0 1rem;
+}
+.LegalContentPage p {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.57;
+  color: #1a2039;
+}
+.LegalContentPage p:last-child {
+  margin-bottom: 0;
+}
+.LegalContentPage a {
+  color: #426895;
+  text-decoration: underline;
+}
+.LegalContentPage a:hover {
+  color: #9ca7ff;
+}
+.LegalContentPage ul {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  list-style: disc outside;
+}
+.LegalContentPage ul > li {
+  display: list-item;
+}
+.LegalContentPage ol {
+  padding-left: 1.25rem;
+  list-style-type: decimal;
+}
+.LegalContentPage ol li > p {
+  margin: 0;
+}
+.LegalContentPage ol ul {
+  list-style-type: disc;
+}
+.LegalContentPage li {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.57;
+  color: #1a2039;
+}
+.LegalContentPage strong {
+  font-weight: 500;
+}
+.LegalContentPage__table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 0 0 1rem;
+}
+.LegalContentPage__table-wrap--cookie-list {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.LegalContentPage__table--cookie-list {
+  max-width: 100%;
+  table-layout: fixed;
+}
+.LegalContentPage__table--cookie-list th,
+.LegalContentPage__table--cookie-list td {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+@media (max-width: 47.99rem) {
+  .LegalContentPage__table--cookie-list {
+    font-size: 0.8125rem;
+  }
+  .LegalContentPage__table--cookie-list th,
+  .LegalContentPage__table--cookie-list td {
+    padding: 0.375rem 0.5rem;
+  }
+}
+.LegalContentPage__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #1a2039;
+}
+.LegalContentPage__table th,
+.LegalContentPage__table td {
+  padding: 0.5rem 0.9375rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table thead th {
+  background-color: #ebedff;
+  color: #1a2039;
+  font-weight: 500;
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table-section td {
+  background-color: #ffffff;
+  font-weight: 500;
+  text-align: start;
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table-detail td {
+  background-color: #ffffff;
+  font-weight: 300;
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table-detail p {
+  margin: 0 0 0.5rem;
+}
+.LegalContentPage__table-detail p:last-child {
+  margin-bottom: 0;
+}
+.LegalContentPage__table--cookie-list tbody tr:not(.LegalContentPage__table-detail) td {
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table--cookie-list .LegalContentPage__table-detail td {
+  border: none;
+}
+.LegalContentPage__table--cookie-list thead th {
+  border-bottom: 1px solid #c4caff;
+}
+</style>
+
+<h2>Welcome to the Dubai Residential Residents Portal</h2>
+
+        <p>The Dubai Residential Residents Portal at <a href="https://residents.dubairesidential.ae">https://residents.dubairesidential.ae</a> (the &ldquo;Dubai Residential Residents Portal&rdquo;) and the Dubai Residential App available on Android and from iOS stores (the &ldquo;Dubai Residential App&rdquo;) are owned and operated by Dubai Residential Assets LLC (&ldquo;Company&rdquo; &ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo; and includes our subsidiaries or other affiliates).</p>
+
+        <p>These terms and conditions (&ldquo;Terms&rdquo;) set out the basis upon which you (&ldquo;users&rdquo;, &ldquo;you&rdquo;, &ldquo;your&rdquo;) can access and use the Dubai Residential Residents Portal and/or the Dubai Residential App, including any content, functionality and services offered on or through the Dubai Residential Residents Portal and/or the Dubai Residential App, including those services set out in further detail in Section 3 below (&ldquo;Services&rdquo;).</p>
+
+        <p>If you have any questions about the Dubai Residential Residents Portal and/or the Dubai Residential App then - in most cases - you will be able to find the answer in these Terms. If you cannot find an answer to your query, then please feel free to contact us at the email address specified in the Contact section below.</p>
+
+        <details id="1-terms" class="LegalContentPage__accordion open">
+
+        <summary class="LegalContentPage__accordion-summary"><span>1. Terms</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>1.1. By accessing the Dubai Residential Residents Portal and/or the Dubai Residential App, you agree to be bound by these Terms. If you do not agree with any of the Terms, your sole recourse is to stop using the Dubai Residential Residents Portal and/or the Dubai Residential App.</p>
+
+        <p>1.2. The Company may amend these Terms at any time by posting an updated version of the Terms on the Dubai Residential Residents Portal and/or the Dubai Residential App. The Company encourages you to check the Dubai Residential Residents Portal and/or Dubai Residential App regularly for any amendments to the Terms. Your continued use of the Dubai Residential Residents Portal and/or Dubai Residential App will constitute your express consent to these terms.</p>
+
+        <p>1.3. Nothing in these Terms affects your statutory rights, either as a consumer of services or otherwise.</p>
+
+        </div>
+
+        </details>
+
+        <details id="2-privacy-policy" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>2. Privacy policy</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>2.1. The personal information you provide in the course of using the Dubai Residential Residents Portal and/or the Dubai Residential App will be used in accordance with our Privacy Policy, the terms of which are hereby incorporated into and form part of these Terms.</p>
+
+        </div>
+
+        </details>
+
+        <details id="3-services" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>3. Services</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>3.1. The Services available on the Dubai Residential Residents Portal and/or the Dubai Residential App include those set out below and may be varied, added to, and/or removed by the Company as and when it sees fit. The Company may only be able to complete certain of the Services subject to you taking certain actions, such as uploading documents and/or making payments (see Section 7), and does not accept any liability to you or any other party for any failure by you to take the required actions or for any unavailability of the Services. <strong>In the event that a user makes a request which it subsequently cancels, the user may be liable to pay a fee to the Company in respect of such cancelled request.</strong> Non-exhaustive details of required actions are included under the specific Services set out below and further details are included on the relevant section of the Portal/App.</p>
+
+        <p>3.2. Any customers with a payment default history, pending payments and/or dues or outstanding legal cases with any member of the Company&rsquo;s group may not have access to the Dubai Residential Residents Portal and/or the Dubai Residential App and/or some of its features and/or offers available to other customers on the Dubai Residential Residents Portal and/or the Dubai Residential App and the Company reserves the right to refuse access to the Dubai Residential Residents Portal and/or the Dubai Residential App and/or any of its features and/or offers to any such customers.</p>
+
+        <p><strong>3.3. The Services</strong></p>
+
+        <p><strong>3.3.1. User Registration/Update User Profile</strong> &ndash; see Section 4 (&ldquo;Your Details&rdquo;) below for further detail.</p>
+
+        <p><strong>3.3.2. Initiate move-in process</strong></p>
+
+        <p><strong>3.3.3. Raising and tracking maintenance requests (in-unit)</strong> &ndash; you can request in-unit maintenance via the Dubai Residential Residents Portal and/or the Dubai Residential App. You will be required to provide details of the location of the unit and the nature of the maintenance to be provided. Subject to sufficient information being provided, the Company will make arrangements with you to attend the unit to assess the maintenance request and to determine whether the user or the Company is responsible for the costs of undertaking the maintenance (if any).</p>
+
+        <p><strong>3.3.4. Raising and tracking Community Care requests</strong> &ndash; you can raise maintenance requests and complaints relating to your community via the Dubai Residential Residents Portal and/or the Dubai Residential App. You will be required to provide details of the location of the Community and the nature of the maintenance to be provided or basis for the complaint (as relevant). Subject to sufficient information being provided, the Company will make arrangements with you to attend the Community to assess the maintenance request and/or complaint (as applicable) and to determine whether the user or the Company is responsible for the costs of undertaking the maintenance (if any).</p>
+
+        <p><strong>3.3.5. Lease Renewal</strong> &ndash; you can renew your lease via the Dubai Residential Residents Portal and/or the Dubai Residential App.</p>
+
+        <ol>
+
+        <li><p>The lease renewal process will be as follows (subject to any amendments the Company may make in its absolute discretion):</p>
+
+        <ul>
+
+        <li>The proposal for the renewal lease will be agreed as between you and the Company (including rent details (taking into account any applicable increase/decrease as per the RERA calculator), any applicable discounts, number of installments, etc.).</li>
+
+        <li>You will complete the details of the sample PDCs and/or provide details of your credit/debit card and/or set up a direct debit* (see Section 7).</li>
+
+        <li>You will provide the information/follow the process set out in paragraph (b) below.</li>
+
+        <li>Subject to your compliance with paragraph (b) below and approval of the lease renewal by the Company (at its discretion), you will receive the renewed lease and Ejari from the Company via email.</li>
+
+        </ul>
+
+        <p>* Former Nakheel tenants, please be informed that the direct debit payment option is no longer available. Kindly use alternative payment methods such as post-dated cheques, bank transfers, or credit/debit card payments.</p>
+
+        </li>
+
+        <li><p>The renewal of the lease will be subject to the following:</p>
+
+        <ul>
+
+        <li>You uploading via the Dubai Residential Residents Portal and/or the Dubai Residential App such documents as the Company requests in connection with the renewal.</li>
+
+        <li>You validly signing the renewal lease via one of the following methods:</li>
+
+        <li>Using your UAE Pass digital signature; OR</li>
+
+        <li>You downloading, printing and signing two copies of the renewal lease and sending the original signed copies of the lease to the Company; OR</li>
+
+        <li>The Company sending you copies of the renewal lease for you to sign and return to the Company.</li>
+
+        <li>You making payment of the Company&rsquo;s administration fee.</li>
+
+        <li>You paying any pending rental or other payments relating to the property are pending.</li>
+
+        </ul>
+
+        </li>
+
+        </ol>
+
+        <p><strong>3.3.6. Enquiries related to lease agreement or enquiries for rental</strong> &ndash; users may submit enquiries relating to their lease agreement or enquiries for rental via the Dubai Residential Residents Portal and/or the Dubai Residential App. The Company may request further information in respect of the relevant enquiry before responding to the user.</p>
+
+        <p><strong>3.3.7. Update documents related to your tenancy</strong></p>
+
+        <p><strong>3.3.8. Make general enquiries</strong></p>
+
+        <p><strong>3.3.9. Receive updates on events and activities in your community</strong></p>
+
+        <p><strong>3.3.10. Provide app feedback</strong></p>
+
+        <p><strong>3.3.11. Initiate move-out process</strong></p>
+
+        </div>
+
+        </details>
+
+        <details id="4-your-details" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>4. Your details</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>4.1. You will need to register with the Dubai Residential Residents Portal and/or the Dubai Residential App to use any Services. To register, you must be at least 21 years of age and you must provide true, accurate, complete and current information (including name, date of birth, email address, credit/debit card details, and other details) as requested during the account creation. The registration process will require users to authenticate their identity using an OTP sent to their email or mobile number registered with the Company. The registration process may be amended from time to time at the Company&rsquo;s discretion.</p>
+
+        <p>4.2. By registering yourself on the Dubai Residential Residents Portal and/or the Dubai Residential App, you warrant that the details you provide to the Company are correct and complete and you agree that you will inform the Company immediately of any changes to those details (e.g. change of email or postal address). If you are registering on behalf of a business or any corporate body, you are confirming that you hold the appropriate authority to bind the business or corporate body on whose behalf you are registering. You can access and update your details (not all details will be editable) using the [&ldquo;My Profile&rdquo; area] of the Dubai Residential Residents Portal and/or the Dubai Residential App. You authorise us to use any information provided to us in registering to verify your information (including any updated information), to obtain credit reports about you from time to time while you are registered, and to obtain an initial credit authorization from your credit card issuer at time of registration, need be. You must be issued with a major credit/debit card that is accepted by the Company and you must register that card with us, and your application for registration must otherwise be acceptable to Company in its own absolute discretion.</p>
+
+        <p>4.3. You are responsible for maintaining the confidentiality of your account username and password and for preventing unauthorized access to your profile. You agree to accept responsibility for all activities that occur under your account. Please take all necessary steps to ensure that the username and password is kept confidential and secure. Please inform the Company immediately if you have any reason to believe that your username and/or password has become known to anyone else, or are being, or are likely to be, used in an unauthorized manner.</p>
+
+        <p>4.4. The Company reserves the right to refuse access to the Dubai Residential Residents Portal and/or the Dubai Residential App, terminate accounts, remove or edit content, or cancel orders at Company&rsquo;s discretion. If the Company cancels an order, it will be without charge to you.</p>
+
+        </div>
+
+        </details>
+
+        <details id="5-agreement-to-deal-electronically-electronic-communications-and-notices" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>5. Agreement to deal electronically electronic communications and notices</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>5.1. All of your transactions with or through the Dubai Residential Residents Portal and/or the Dubai Residential App may, at our option, be conducted electronically from start to finish. If we decide to proceed non-electronically, those Services will still be governed by the remainder of these Terms unless you enter into different terms on a form provided by us. You agree to print or make an electronic copy of the Terms and any other contract or disclosure that we are required to provide to you.</p>
+
+        <p>5.2. By clicking &ldquo;Submit&rdquo; on any step of a transaction within this Site, you agree to conduct such transaction by electronic means. You understand that by clicking the box titled &ldquo;I agree to the Terms &amp; Conditions,&rdquo; you are agreeing to conduct an electronic transaction and to use and receive communications through electronic means. You agree to enter the requested information electronically via the Internet, and to be notified regarding any transaction electronically through the email address you have provided. You understand that electronically signed documents have the same legal effect as hard copies with ink signatures.</p>
+
+        <p>5.3. Except as otherwise provided in these Terms we will give you any notices regarding the Dubai Residential Residents Portal and/or the Dubai Residential App by posting them on the Dubai Residential Residents Portal and/or the Dubai Residential App. To fulfill our obligations to you under these Terms, we may wish to communicate with you by email and/or by posting notices on the Dubai Residential Residents Portal and/or the Dubai Residential App. You agree to receive communications from us electronically and that electronic communications will satisfy any legal requirement for communications which need to be in writing.</p>
+
+        </div>
+
+        </details>
+
+        <details id="6-service-requests" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>6. Service requests</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>6.1. We have created a streamlined registration process for certain applications for Services (&ldquo;Requests&rdquo;). This is only available for Requests using the Dubai Residential Residents Portal and/or the Dubai Residential App.</p>
+
+        <p>6.2. We can, at our discretion, accept Requests, subject to receiving all payments in full in connection with the relevant Request in accordance with Section 7. You authorise us to act, and acknowledge that we will rely on the information provided by you in Requests. We are not required to ask about, or confirm any Requests with you, but we may choose to do so, and we are not required to take additional steps to verify instructions made using your account username and password.</p>
+
+        <p>6.3. We can decline to act on Requests where we consider we have a good reason to do so (for example, Requests are unclear or contradictory, or we suspect the Requests are unauthorised).</p>
+
+        <p>6.4. We will not be liable for any loss or damage you incur if:</p>
+
+        <ul>
+
+        <li>we act on instructions that are unauthorised, forged or fraudulently given;</li>
+
+        <li>we do not act on instructions we consider to be unclear, illegible or contradictory; or</li>
+
+        <li>you do not comply with any relevant terms for giving instructions.</li>
+
+        </ul>
+
+        </div>
+
+        </details>
+
+        <details id="7-payments" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>7. Payments</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>7.1. The Dubai Residential Residents Portal and the Dubai Residential App may from time to time permit users to attend to various matters relating to payments, including the following (subject in each case to availability and to any changes the Company may in its absolute discretion make to the relevant services from time to time):</p>
+
+        <ul>
+
+        <li>View and clear their outstanding dues</li>
+
+        <li>View their upcoming rent installment details</li>
+
+        <li>Manage their card details (add/remove card, transfer recurring payment of rent installment from one card to another)</li>
+
+        <li>View and download details of their payment history</li>
+
+        <li>Get e-receipt of their payments completed in past</li>
+
+        <li>Pay rent installment by any of the following payment methods during contract renewal:</li>
+
+        <li>All installments by Post Dated Cheques (PDCs)</li>
+
+        <li>All installments by credit/debit card (in which case payments of future installment will be automatically deducted from non-expiring card details provided)</li>
+
+        <li>1st installment by credit/debit card and the remainder by PDCs</li>
+
+        <li>1st installment by credit/debit card and the remainder by Direct Debit*</li>
+
+        <li>Clear outstanding dues during Move-Out process</li>
+
+        <li>Defer payment of upcoming rent installment by a maximum of 30 days (provided that the outstanding amount at the relevant time is zero)</li>
+
+        <li>Get notification for status of deferment request raised</li>
+
+        <li>* Former Nakheel tenants, please be informed that the direct debit payment option is no longer available. Kindly use alternative payment methods such as post-dated cheques, bank transfers, or credit/debit card payments.</li>
+
+        </ul>
+
+        <p>7.2. The Dubai Residential Residents Portal and the Dubai Residential App accept payments made online using Visa or MasterCard credit/debit card in AED (or any other agreed currency).</p>
+
+        <p>7.3. If you make a payment via the Dubai Residential Residents Portal or the Dubai Residential App, the details you are asked to submit will be provided directly to our third-party payment provider via a secured connection (&ldquo;Payment Gateway&rdquo;).</p>
+
+        <p>7.4. We reserve the right to cancel your transaction processing account at any time for any reason at which time we will return the payment amount entered into the Payment Gateway, in an appropriate and reasonable timeframe.</p>
+
+        <p>7.5. We reserve the right to refuse processing any payment made by you via the Payment Gateway at any time for any reason.</p>
+
+        <p>7.6. Once payments have been made by users via the Payment Gateway, any refunds to the user will be made at the Company&rsquo;s discretion and subject to the Company&rsquo;s terms and conditions.</p>
+
+        <p>7.7. The Company has the right to use the user&rsquo;s security and/or guarantee cheques in case of any outstanding payments or rental defaults by the user.</p>
+
+        <p>7.8. It is your responsibility to terminate any and all recurring payments on your account before relocating or moving. If you fail to terminate such payments, charges will continue to be assessed to your billing account during the period designated for recurring payments to take place.</p>
+
+        <p>7.9. If you believe a transaction was made improperly, we in our sole discretion may void, issue a credit, or rescind any transaction made through the Payment Gateway prior to remittance of such payment to your payee. Payment disputes arising after payment has been settled to your payee are between you and payee alone. We may act as an intermediary if such actions can reasonably and efficiently handle said problem provided that we do not accept any responsibility to you or the payee for acting in such capacity.</p>
+
+        <p>7.10. In the event that the Company transfers any amount of your payments to a third party, then the Company does not accept any liability for any monies once they have transferred to the third party and you may need to contact the third party directly to seek to recover any monies in the event they were paid incorrectly.</p>
+
+        <p>7.11. If applicable, you agree to pay all Request fees billable immediately to the credit card identified in your Request for the purpose of application processing. This billing will occur at the time of the relevant transaction.</p>
+
+        </div>
+
+        </details>
+
+        <details id="8-use-of-the-dubai-residential-residents-portal-and-or-the-dubai-residential-app" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>8. Use of the Dubai Residential residents portal and/or the Dubai Residential app</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>8.1. The Company tries to keep all information on the Dubai Residential Residents Portal and/or the Dubai Residential App up to date, but it may not be correct all of the time. You should independently check the information you use is correct and you use the Dubai Residential Residents Portal and/or the Dubai Residential App at your own risk. If you find any incorrect information, you can notify the Company by calling or emailing at the details specified in the Contact section below.</p>
+
+        <p>8.2. You must not conduct or promote any illegal activities while using the Dubai Residential Residents Portal and/or the Dubai Residential App. This includes any activities that (in Company&rsquo;s opinion) breach copyright, infringe on privacy or infringe any third-party rights as well as activities that are defamatory to third persons. To do so may lead to prosecution.</p>
+
+        <p>8.3. You must not use the Dubai Residential Residents Portal and/or the Dubai Residential App to generate unsolicited emails, spam or promotional materials to other Users. You must not do anything to cause damage to the Dubai Residential Residents Portal and/or the Dubai Residential App or other users of the Dubai Residential Residents Portal and/or the Dubai Residential App, including any technical damage to the other computers. You must not send any viruses or other material designed to adversely affect the operation of the Dubai Residential Residents Portal and/or the Dubai Residential App, affect any other users of the Dubai Residential Residents Portal and/or the Dubai Residential App or affect any equipment or any data in the Dubai Residential Residents Portal and/or the Dubai Residential App. You must not attempt to gain access to the Dubai Residential Residents Portal and/or the Dubai Residential App or the system that runs the Dubai Residential Residents Portal and/or the Dubai Residential App. You must not interfere with the security of the Dubai Residential Residents Portal and/or the Dubai Residential App, its services, system resources or network. You must not use the Dubai Residential Residents Portal and/or the Dubai Residential App in any manner that could damage, overburden or impair the Dubai Residential Residents Portal and/or the Dubai Residential App nor harvest or otherwise collect any information about the Users. You must not link to the Dubai Residential Residents Portal without seeking Company&rsquo;s prior written consent. You must not frame the Dubai Residential Residents Portal and/or the Dubai Residential App on another website without seeking the Company&rsquo;s prior written consent. You must not change, edit, add to or produce summaries of its content anywhere else.</p>
+
+        <p>8.4. Please note that it is illegal to provide false information-name, phone number or fraudulently obtained information regarding the credit /debit card or without the consent of the cardholder. Any party engaged in illegal activities involving the use of the Dubai Residential Residents Portal and/or the Dubai Residential App may be subject to prosecution. The Company does not guarantee that the Company will be able to prevent any illegal or inappropriate use of the Dubai Residential Residents Portal and/or the Dubai Residential App, or will give notice of any illegal or inappropriate use of the Dubai Residential Residents Portal and/or the Dubai Residential App.</p>
+
+        </div>
+
+        </details>
+
+        <details id="9-change-of-the-dubai-residential-residents-portal-and-cessation-of-operations" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>9. Change of the Dubai Residential residents portal and cessation of operations</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>9.1. The Company reserves the right to change or correct any errors or omissions in the Dubai Residential Residents Portal and/or the Dubai Residential App, and to alter, limit or discontinue the provision of any of the services provided via the Dubai Residential Residents Portal and/or the Dubai Residential App, at any time without prior notice to you. The Company will use reasonable efforts to include up-to-date and accurate information in the Dubai Residential Residents Portal and/or the Dubai Residential App, but it reserves the right to delete, modify, or supplement the content of the Dubai Residential Residents Portal and/or the Dubai Residential App at any time for any reason without prior notification.</p>
+
+        </div>
+
+        </details>
+
+        <details id="10-third-party-links-and-advertisements" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>10. Third party links and advertisements</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>10.1. the Dubai Residential Residents Portal and/or the Dubai Residential App may contain links to other websites. The Company makes no representations or warranties as to the content, privacy practices and other practices of any websites operated by a third party and the Company does not assume responsibility for the content or practices of such websites. You should check the terms and conditions and privacy policies for all third-party websites you visit to understand their procedures.</p>
+
+        <p>10.2. If you use any material, or visit any linked website, you do so at your own risk, and it is your responsibility to take all protective measures to guard against viruses or other destructive material. The Company does not endorse and are not responsible for the use of, or the content of, any third party websites. The Company is not responsible for anything that may happen when you use them.</p>
+
+        </div>
+
+        </details>
+
+        <details id="11-intellectual-property" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>11. Intellectual property</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>11.1. the Dubai Residential Residents Portal and/or the Dubai Residential App content is protected by copyright, trademark and other intellectual property rights. The Company, our affiliates, or our licensors, retain all rights in such content. You are only permitted to access and use the Dubai Residential Residents Portal and/or the Dubai Residential App for personal purposes. You may not use the Dubai Residential Residents Portal and/or the Dubai Residential App, or any of its content, to further any commercial purpose, including any advertising or advertising revenue generation activity on your own website. You may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, commercially exploit, create derivative works from, transfer, or sell any content or software contained within the Dubai Residential Residents Portal and/or the Dubai Residential App.</p>
+
+        <p>11.2. The Company is not responsible for any error or inaccuracy in any advertising or sponsorship material on the Dubai Residential Residents Portal and/or the Dubai Residential App.</p>
+
+        </div>
+
+        </details>
+
+        <details id="12-user-conduct-and-user-generated-content" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>12. User conduct and user generated content</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>12.1. You agree to comply with all legal requirements of the jurisdiction in which you are located with regard to your use of the Dubai Residential Residents Portal and/or the Dubai Residential App, and you acknowledge that you are entirely responsible for ensuring your own familiarity with such requirements and your own compliance with the same. the Dubai Residential Residents Portal and/or the Dubai Residential App may at times provide opportunities for users to post reviews and other comments, questions, suggestions or other information (<strong>&ldquo;User Generated Content&rdquo;</strong>) on the Dubai Residential Residents Portal and/or the Dubai Residential App. You warrant that any such User Generated Content submitted by you to the Dubai Residential Residents Portal and/or the Dubai Residential App is original (and does not infringe the copyright of others), and you hereby grant the Company a perpetual, irrevocable, non-exclusive, royalty-free licence to use such User Generated Content so submitted, without any further recourse to you, and you hereby waive any moral rights in such User Generated Content. You agree that you will not post any content that is contrary to morality, defamatory, inflammatory, that infringes copyright, or that may otherwise breach common decency or be contrary to law. The Company has the right, but not the obligation, to monitor and edit or remove any activity or User Generated Content and takes no responsibility and assumes no liability for any User Generated Content posted by you or any third party.</p>
+
+        </div>
+
+        </details>
+
+        <details id="13-disclaimer-of-warranty" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>13. Disclaimer of warranty</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>13.1. the Dubai Residential Residents Portal and/or the Dubai Residential App and their content are provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis. The Company, its parents, subsidiaries, affiliates, and their respective suppliers, and any of their owners, officers, directors, managers, members, agents, and employees, expressly disclaim (to the fullest extent permitted by applicable law) any and all express, implied, and statutory warranties, including, without limitation, any warranties of merchantability, fitness for a particular purpose, freedom from computer virus, title, and non-infringement of proprietary rights.</p>
+
+        <p>13.2. We do not guarantee uninterrupted or error-free operation of the Dubai Residential Residents Portal and/or the Dubai Residential App or any portion of them.</p>
+
+        </div>
+
+        </details>
+
+        <details id="14-limitation-of-liability" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>14. Limitation of Liability</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>14.1. To the maximum extent permissible by applicable law, Company, its parents, subsidiaries, affiliates, and their respective suppliers, and any of their owners, officers, directors, managers, members, agents, and employees:</p>
+
+        <ul>
+
+        <li>14.1.1. Are not liable for any direct, indirect, punitive, incidental, special, or consequential damages or loss (including, without limitation, incidental and consequential damages, lost profits, or damages resulting from lost data or business interruption) arising out of, or in way connected with, the use or inability to use the Dubai Residential Residents Portal and/or the Dubai Residential App and their content, whether based on warranty, contract, tort (including negligence), or any other legal theory, and whether or not company is advised of the possibility of such damages; and</li>
+
+        <li>14.1.2. Exclude any and all liability for damages caused by, any problems or technical malfunction of any telephone network or lines, computer online systems, servers or providers, computer equipment, software, failure of any communications due to technical problems or traffic congestion on the internet or on the Dubai Residential Residents Portal and/or the Dubai Residential App or combination thereof, including any injury or damage to any users or to any person&rsquo;s computer related to or resulting from use of the Dubai Residential Residents Portal and/or the Dubai Residential App.</li>
+
+        </ul>
+
+        <p>14.2. Where it is not possible to exclude liability under applicable law, you agree that the Company&rsquo;s maximum liability for any corresponding claim shall be limited to an amount of AED 100.</p>
+
+        </div>
+
+        </details>
+
+        <details id="15-indemnity" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>15. Indemnity</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>15.1. You agree to hold harmless and indemnify Company, its parents, subsidiaries, affiliates, and their respective suppliers, and any of their owners, officers, directors, managers, members, agents, and employees, from and against any claims, liabilities, suits, judgments, litigation costs, causes of action, demands, recoveries, losses, damages (actual and consequential), fines, penalties, and attorneys&rsquo; fees or other costs or expenses of any kind or nature arising from or in any way related to your use of the Dubai Residential Residents Portal and/or the Dubai Residential App, including, but not limited to those brought by you or on your behalf in excess of the liability described above, or by third parties as a result of your breach of these Terms, your violation of any law or the rights of a third party, or your use of the Dubai Residential Residents Portal and/or the Dubai Residential App.</p>
+
+        </div>
+
+        </details>
+
+        <details id="16-relationship" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>16. Relationship</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>16.1. These Terms (as amended from time to time in accordance with its terms) and Privacy Policy sets out the entire understanding and agreement between you and the Company with respect to the use of the Dubai Residential Residents Portal and/or the Dubai Residential App.</p>
+
+        </div>
+
+        </details>
+
+        <details id="17-termination" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>17. Termination</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>17.1. The Company may terminate or suspend your access to all or part of the Dubai Residential Residents Portal and/or the Dubai Residential App, without Court order and without prior notice, if it believes that your conduct is in violation of these Terms, applicable law, or otherwise harmful to the interests of the Company or any third party. Notwithstanding, such termination or suspension, you agree that you will continue to be subject to the obligations which, by their nature, survive such termination or suspension, including the obligations relating to Intellectual Property Rights, User Generated Content.</p>
+
+        </div>
+
+        </details>
+
+        <details id="18-general-terms" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>18. General Terms</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p><strong>18.1. Relationship:</strong> None of the provisions of these Terms will be deemed to constitute a partnership or agency between you and Company and you will have no authority to bind the Company in any manner whatsoever.</p>
+
+        <p><strong>18.2. Severability:</strong> If any provision of these Terms is held by a court of competent jurisdiction to be invalid, illegal or unenforceable and can be deleted without altering the essence of these Terms, the invalid, illegal or unenforceable provision will be severed and the remaining provisions will remain in full force or effect.</p>
+
+        <p><strong>18.3. No Waiver:</strong> Any failure by the Company to enforce any terms set out in these Terms or other policies with you is not a waiver of Company&rsquo;s rights to enforce those terms.</p>
+
+        </div>
+
+        </details>
+
+        <details id="19-governing-law-and-jurisdiction" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>19. Governing law and jurisdiction</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>19.1. The Terms shall be governed by the laws of Dubai, United Arab Emirates. Any dispute regarding these Terms shall be subject to the exclusive jurisdiction of the Courts in Dubai. If any portion of the Terms is held to be unenforceable, invalid or illegal by any court of competent jurisdiction, the remainder of the Terms shall not be affected.</p>
+
+        </div>
+
+        </details>
+
+        <details id="20-contact" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>20. Contact</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>20.1. Dubai Residential LLC, Commercial Register No. 1127488 and having its principal place of business at Al Sa&rsquo;ada Street, Business Bay, PO Box 500272, Dubai, UAE. You can contact us regarding the Dubai Residential Residents Portal, the Dubai Residential App, or these Terms, on <a href="mailto:customercare@dubairesidential.ae">customercare@dubairesidential.ae</a> and toll free number <strong>800 9933</strong>.</p>
+
+        </div>
+
+        </details>
+
+        '
+  jss-footer:
+  - componentName: Footer
+    fields:
+      version: 2
+      logoLink:
+        href: /
+        text: Home
+        target: _self
+        title: Go to Home
+      logoImage:
+        src: /data/media/img/svg/dubai-residential-logo-white.svg
+        alt: Dubai Residential White Logo
+        width: 140
+        height: 87
+      appStoreLink:
+        href: https://apps.apple.com/app-link
+        text: Download on the App Store
+        target: _blank
+        title: Go to App Store
+      appStoreImage:
+        src: /data/media/img/svg/app-store.svg
+        alt: Dubai Residential Logo
+        width: 82
+        height: 50
+      googlePlayLink:
+        href: https://play.google.com/store-link
+        text: Get it on Google Play
+        target: _blank
+        title: Go to Google Play
+      googlePlayImage:
+        src: /data/media/img/svg/play-store.svg
+        alt: Dubai Residential Logo
+        width: 82
+        height: 50
+      customerCareLabel: Customer Care
+      customerCareNumber: 800 9933
+      customerCareIcon: "<svg  width=\"30\" height=\"30\" viewBox=\"0 0 24 24\">\n  <path d=\"M1.01281 17.6187C1.20895 19.1093 1.94098 20.4775 3.07215 21.4677C4.20333 22.458 5.65631 23.0027 7.15972 23C15.8939 23 23 15.8939 23 7.15984C23.0027 5.65644 22.458 4.20347 21.4677 3.0723C20.4774 1.94113 19.1093 1.20912 17.6187 1.01298C17.2418 0.966954 16.8601 1.04407 16.5306 1.2328C16.2011 1.42154 15.9415 1.71178 15.7905 2.06019L13.4672 7.24674V7.25994C13.3516 7.52664 13.3039 7.81782 13.3283 8.10747C13.3526 8.39712 13.4484 8.67623 13.6069 8.91985C13.6267 8.94955 13.6476 8.97705 13.6696 9.00455L15.9599 11.7194C15.136 13.3936 13.3847 15.1294 11.6885 15.9555L9.01105 13.6774C8.98476 13.6553 8.95721 13.6347 8.92855 13.6158C8.68512 13.4534 8.40506 13.3543 8.11369 13.3274C7.82232 13.3006 7.52885 13.3467 7.25982 13.4618L7.24552 13.4684L2.06333 15.7905C1.7143 15.941 1.42335 16.2004 1.23399 16.5299C1.04463 16.8594 0.967039 17.2414 1.01281 17.6187ZM2.75964 17.3987C2.75964 17.3987 2.76734 17.3987 2.77174 17.3987L7.94183 15.0832L10.6204 17.3613C10.6464 17.3833 10.6735 17.4039 10.7018 17.4229C10.9551 17.5919 11.2478 17.6923 11.5515 17.7143C11.8552 17.7362 12.1593 17.6791 12.4343 17.5483C14.4946 16.5528 16.5484 14.5145 17.545 12.4762C17.677 12.2032 17.7362 11.9008 17.7169 11.5982C17.6976 11.2957 17.6005 11.0032 17.435 10.7492C17.4163 10.7193 17.3954 10.691 17.3723 10.6645L15.0799 7.94634L17.3899 2.77629C17.3903 2.77191 17.3903 2.76748 17.3899 2.76309C18.4566 2.90224 19.4361 3.42548 20.1448 4.23482C20.8535 5.04415 21.2428 6.08407 21.24 7.15984C21.2359 10.8929 19.7511 14.4718 17.1115 17.1115C14.4718 19.7511 10.8928 21.2359 7.15972 21.24C6.08461 21.2437 5.04495 20.8557 4.23515 20.1485C3.42533 19.4413 2.90081 18.4634 2.75964 17.3976V17.3987Z\" fill=\"currentColor\" />\n</svg>\n"
+      copyrightText: © 2026. DUBAI RESIDENTIAL.
+      downloadAppText: Download the DUBAI RESIDENTIAL LIFE APP TODAY
+      navLinks:
+      - fields:
+          link:
+            href: http://www.dubairesidential.ae/
+            text: PROPERTY SEARCH
+            target: _blank
+      - fields:
+          link:
+            href: https://dubairesidential.ae/en/contact-us#contact-layout-page-form
+            text: CONTACT US
+            target: _blank
+      legalLinks:
+      - fields:
+          link:
+            href: /privacy-notice
+            text: PRIVACY NOTICE
+            target: _self
+      - fields:
+          link:
+            href: /cookie-notice
+            text: COOKIE NOTICE
+            target: _self
+      - fields:
+          link:
+            href: /terms-and-conditions
+            text: TERMS AND CONDITIONS
+            target: _self
+      socialLinks:
+      - fields:
+          link:
+            href: https://www.youtube.com/@Dubai.Residential
+            text: Youtube
+            target: _blank
+          icon: "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.5968 5.44802C21.544 5.69497 22.2883 6.41992 22.5418 7.34243H22.54C23 9.01282 23 12.5 23 12.5C23 12.5 23 15.9872 22.54 17.6576C22.2865 18.5801 21.5421 19.305 20.595 19.552C18.88 20 12 20 12 20C12 20 5.12002 20 3.405 19.552C2.45785 19.305 1.71353 18.5801 1.45999 17.6576C1 15.9872 1 12.5 1 12.5C1 12.5 1 9.01282 1.45999 7.34243C1.71353 6.41992 2.45785 5.69497 3.405 5.44802C5.12002 5 12 5 12 5C12 5 18.88 5 20.5968 5.44802ZM15.517 12.5L9.79964 15.7138V9.28622L15.517 12.5Z\" fill=\"currentColor\"/>\n</svg>\n"
+      - fields:
+          link:
+            href: https://www.facebook.com/DubaiAMLife/
+            text: Facebook
+            target: _blank
+          icon: "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\">\n  <path d=\"M13.125 23V13.1602H16.1667L16.6667 9.25H13.125V6.54297C13.125 5.91276 13.2361 5.45443 13.4583 5.16797C13.7361 4.82422 14.25 4.65234 15 4.65234H17V1.17188C16.25 1.05729 15.2778 1 14.0833 1C12.6111 1 11.4306 1.45117 10.5417 2.35352C9.65278 3.25586 9.20833 4.52344 9.20833 6.15625V9.25H6V13.1602H9.20833V23H13.125Z\" fill=\"currentColor\"/>\n</svg>\n"
+      - fields:
+          link:
+            href: https://www.linkedin.com/company/dubairesidential/
+            text: LinkedIn
+            target: _blank
+          icon: "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.41069 6.82139C5.06545 6.82139 5.63092 6.5833 6.10711 6.10711C6.5833 5.63092 6.82139 5.06545 6.82139 4.41069C6.82139 3.75594 6.5833 3.19047 6.10711 2.71428C5.63092 2.23809 5.06545 2 4.41069 2C3.75594 2 3.19047 2.23809 2.71428 2.71428C2.23809 3.19047 2 3.75594 2 4.41069C2 5.06545 2.23809 5.63092 2.71428 6.10711C3.19047 6.5833 3.75594 6.82139 4.41069 6.82139ZM13.2062 22V15.3929C13.2062 14.3512 13.355 13.5625 13.6526 13.0268C14.0395 12.3125 14.7092 11.9554 15.6615 11.9554C16.6139 11.9554 17.2538 12.3572 17.5812 13.1607C17.7597 13.6369 17.849 14.4107 17.849 15.4821V22H22.0008V14.6786C22.0008 12.625 21.7031 11.1072 21.1079 10.125C20.3341 8.90482 18.98 8.29471 17.0454 8.29471C16.0931 8.29471 15.2597 8.5328 14.5455 9.00899C13.8907 9.39589 13.4145 9.88695 13.1169 10.4822H13.0723V8.65185H9.09908V22H13.2062ZM6.46285 8.65185V22H2.3111V8.65185H6.46285Z\" fill=\"currentColor\"/>\n</svg>\n"
+      - fields:
+          link:
+            href: https://www.instagram.com/dubairesidential
+            text: Instagram
+            target: _blank
+          icon: "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M7.44432 1.07693C6.27391 1.13215 5.47464 1.31893 4.77592 1.59349C4.05277 1.87531 3.43984 2.25349 2.83 2.86553C2.22015 3.47757 1.84461 4.09093 1.56476 4.81517C1.29394 5.51543 1.11046 6.31535 1.05876 7.48641C1.00706 8.65747 0.995618 9.03389 1.00134 12.0211C1.00706 15.0082 1.02026 15.3827 1.07702 16.5561C1.1329 17.7263 1.31902 18.5254 1.59358 19.2243C1.87585 19.9474 2.25359 20.5601 2.86586 21.1702C3.47812 21.7803 4.09105 22.1549 4.81706 22.4352C5.51666 22.7056 6.31681 22.8899 7.48766 22.9412C8.65852 22.9925 9.03538 23.0043 12.0217 22.9986C15.008 22.9929 15.384 22.9797 16.5573 22.924C17.7305 22.8684 18.5254 22.6809 19.2246 22.4077C19.9477 22.1248 20.5609 21.7477 21.1705 21.1352C21.7801 20.5227 22.1554 19.9089 22.4351 19.1843C22.7061 18.4847 22.8902 17.6845 22.9411 16.5146C22.9923 15.3404 23.0044 14.9655 22.9987 11.9788C22.993 8.99209 22.9796 8.61765 22.9239 7.44461C22.8682 6.27157 22.6819 5.47495 22.4076 4.77557C22.1248 4.05243 21.7475 3.44017 21.1355 2.82967C20.5235 2.21917 19.9092 1.84407 19.1847 1.56511C18.4847 1.29429 17.685 1.10971 16.5141 1.05911C15.3433 1.00851 14.9664 0.995531 11.979 1.00125C8.9916 1.00697 8.6176 1.01973 7.44432 1.07693ZM7.5728 20.9623C6.50029 20.9157 5.91795 20.7375 5.52986 20.5883C5.01594 20.3903 4.64985 20.1509 4.26309 19.7679C3.87633 19.3849 3.63872 19.0175 3.43808 18.5047C3.28738 18.1166 3.10588 17.5349 3.05572 16.4624C3.00116 15.3032 2.98972 14.9552 2.98334 12.0184C2.97696 9.08163 2.98818 8.73403 3.039 7.57441C3.08476 6.50279 3.26406 5.91979 3.413 5.53193C3.611 5.01735 3.84949 4.65193 4.23339 4.26539C4.61729 3.87885 4.9836 3.64081 5.49686 3.44017C5.88451 3.28881 6.46619 3.10885 7.53826 3.05781C8.69834 3.00281 9.04594 2.99181 11.9823 2.98543C14.9187 2.97905 15.2672 2.99005 16.4277 3.04109C17.4993 3.08773 18.0825 3.26527 18.47 3.41509C18.9841 3.61309 19.35 3.85091 19.7365 4.23547C20.1231 4.62003 20.3613 4.98501 20.562 5.49937C20.7135 5.88591 20.8935 6.46737 20.9441 7.54009C20.9993 8.70015 21.0119 9.04797 21.0171 11.9841C21.0224 14.9202 21.0121 15.2689 20.9613 16.4281C20.9144 17.5006 20.7366 18.0832 20.5873 18.4717C20.3893 18.9854 20.1506 19.3517 19.7664 19.738C19.3823 20.1243 19.0164 20.3624 18.503 20.563C18.1157 20.7141 17.5334 20.8945 16.4622 20.9456C15.3021 21.0001 14.9545 21.0116 12.0171 21.018C9.0796 21.0243 8.7331 21.0125 7.57302 20.9623M16.5403 6.12087C16.5416 6.84995 17.1334 7.43999 17.8625 7.43867C18.5916 7.43735 19.1817 6.84555 19.1803 6.11647C19.179 5.38739 18.5872 4.79735 17.8581 4.79867C17.8581 4.79867 17.8579 4.79867 17.8577 4.79867C17.1288 4.80021 16.539 5.39201 16.5403 6.12087ZM6.35201 12.0109C6.35817 15.1305 8.89172 17.6537 12.0107 17.6478C15.1297 17.6418 17.6546 15.1085 17.6487 11.9889C17.6427 8.86933 15.1085 6.34549 11.9891 6.35165C8.86972 6.35781 6.34607 8.89177 6.35201 12.0109ZM8.33335 12.007C8.32939 9.98187 9.96775 8.33693 11.9929 8.33297C14.018 8.32901 15.6629 9.96735 15.6669 11.9925C15.6709 14.0176 14.0325 15.6625 12.0074 15.6665C9.98249 15.6706 8.33753 14.0327 8.33335 12.0079V12.007Z\" fill=\"currentColor\"/>\n</svg>\n"

@@ -1,0 +1,78 @@
+@layer components {
+  /* MODAL OVERLAY */
+  .custom-modal {
+    @apply fixed inset-0 z-2000
+           flex items-center justify-center
+           p-5
+           bg-black/40
+           opacity-0 invisible pointer-events-none
+           transition-default duration-300 ease-in-out
+           font-filson;
+  }
+
+  .custom-modal.show {
+    @apply opacity-100 visible pointer-events-auto;
+  }
+
+  /* Can enable it when find a use for it */
+  /* .custom-modal__index-2 {
+    @apply z-[2010];
+  } */
+
+  .custom-modal.video-modal {
+    @apply z-2500;
+  }
+
+  .custom-modal.error-modal {
+    @apply z-3000;
+  }
+
+  /* MODAL WRAPPER */
+  .custom-modal__wrapper {
+    @apply w-full max-w-155
+           p-4 md:p-8
+           bg-white-pure
+           border border-lilac-500
+           rounded-lg
+           text-center;
+  }
+
+  .custom-modal__heading {
+    @apply text-heading-2
+           font-normal
+           text-navy-500
+           mb-5 md:mb-6;
+  }
+
+  .custom-modal__close-btn {
+    @apply text-body-sm text-lilac-500;
+  }
+
+  .custom-modal__img {
+    @apply w-auto h-37.5 sm:h-52.5
+           object-cover
+           mb-5 md:mb-6
+           mx-auto;
+  }
+
+  .custom-modal__desc {
+    @apply text-body
+           font-light
+           text-navy-500
+           mb-6;
+  }
+
+  .custom-modal__desc a {
+    @apply underline text-sky-700;
+  }
+
+  .custom-modal__desc span {
+    @apply font-medium;
+  }
+
+  .custom-modal__btn-wrapper {
+    @apply flex flex-col md:flex-row
+           items-center justify-center
+           gap-4 md:gap-6;
+  }
+}

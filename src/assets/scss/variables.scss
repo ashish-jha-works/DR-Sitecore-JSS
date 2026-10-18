@@ -1,0 +1,93 @@
+/**
+* Colors
+*/
+/** Lilac */
+$lilac-100: #ebedff;
+$lilac-200: #d7dcff;
+$lilac-300: #c4caff;
+$lilac-400: #b0b9ff;
+$lilac-500: #9ca7ff;
+$lilac-600: #7d86cc;
+$lilac-700: #5e6499;
+$lilac-800: #3e4366;
+$lilac-900: #1f2133;
+$lilac-hover: #828ef7;
+
+/** Sky */
+$sky-100: #e2effe;
+$sky-200: #c5dffd;
+$sky-300: #a8cefb;
+$sky-400: #8bbefa;
+$sky-500: #6eaef9;
+$sky-600: #588bc7;
+$sky-700: #426895;
+$sky-800: #2c4664;
+$sky-900: #162332;
+
+/** Forest */
+$forest-100: #e3eee8;
+$forest-200: #b9d5c6;
+$forest-300: #abcdbb;
+$forest-400: #73ab8d;
+$forest-500: #509670;
+$forest-600: #40785a;
+$forest-700: #305a43;
+$forest-800: #203c2d;
+$forest-900: #101e16;
+
+/** Navy */
+$navy-100: #d1d2d7;
+$navy-200: #a3a6b0;
+$navy-300: #767988;
+$navy-400: #484d61;
+$navy-500: #1a2039;
+$navy-600: #151a2e;
+$navy-700: #101322;
+$navy-800: #0a0d17;
+$navy-900: #05060b;
+
+/** Silver Chalice */
+$silver-chalice-50: #faf9fb;
+$silver-chalice-100: #f0f0f0;
+$silver-chalice-200: #e1e1e1;
+$silver-chalice-300: #d1d1d3;
+$silver-chalice-400: #c2c2c4;
+$silver-chalice-500: #b3b3b5;
+$silver-chalice-600: #8f8f91;
+$silver-chalice-700: #6b6b6d;
+$silver-chalice-800: #484848;
+$silver-chalice-900: #242424;
+
+/** Success */
+$success-50: #ecfde1;
+$success-500: #62c521;
+$success-900: #051800;
+
+/** Warning */
+$warning-50: #fce9d7;
+$warning-500: #ee9235;
+$warning-900: #301d0b;
+
+/** Danger */
+$danger-50: #ffe5e7;
+$danger-500: #c42129;
+$danger-900: #1e0001;
+
+/** Greyscale */
+$black: #262626;
+$black-pure: #000000;
+$white: #484848;
+$white-pure: #ffffff;
+$overlay: rgba(#262626, 0.5);
+
+/** Gradient */
+$hero-gradient: linear-gradient(360deg, rgba(3, 0, 189, 0.2) 1.62%, rgba(127, 21, 13, 0.2) 100%);
+
+/**
+* Transition
+*/
+//#region
+$transition: 0.3s ease;
+$safe-transitions: background-color 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s, opacity 0.3s,
+  transform 0.3s;
+//#endregion

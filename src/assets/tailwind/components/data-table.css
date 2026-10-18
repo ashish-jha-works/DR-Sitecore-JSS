@@ -1,0 +1,84 @@
+@layer components {
+  /* ================= HEADER ================= */
+  .dt-header {
+    @apply hidden md:grid
+      items-start
+      grid-cols-[0.8fr_0.9fr_2fr_1.2fr_1.2fr_auto]
+      gap-4 px-4 py-3
+      border-b border-gray-200
+      text-body font-medium text-primary bg-lilac-100;
+  }
+
+  /* ================= DESKTOP ROW ================= */
+  .dt-row-desktop {
+    @apply hidden md:grid
+      items-start
+      grid-cols-[0.8fr_0.9fr_2fr_1.2fr_1.2fr_auto]
+      gap-4 px-4 py-4
+      border-b border-gray-100
+      cursor-pointer
+      hover:bg-gray-50;
+  }
+
+  .dt-cell-title {
+    @apply text-sm font-medium text-gray-900;
+  }
+
+  .dt-cell-subtitle {
+    @apply text-xs text-gray-500;
+  }
+
+  /* ================= MOBILE ROW ================= */
+  .dt-row-mobile {
+    @apply md:hidden
+      flex justify-between gap-4
+      rounded-xl border border-gray-200
+      p-4 mb-3
+      bg-white
+      cursor-pointer
+      active:bg-gray-100;
+  }
+
+  .dt-mobile-left {
+    @apply flex flex-col gap-2;
+  }
+
+  .dt-mobile-right {
+    @apply flex flex-col items-end justify-between;
+  }
+
+  .dt-mobile-meta {
+    @apply text-right text-xs;
+  }
+
+  /* ================= ACTION ================= */
+  .dt-action {
+    @apply flex items-center
+      text-xs font-medium
+      text-indigo-600;
+  }
+
+  /* ================= STATUS ================= */
+  .status-pill {
+    @apply inline-flex items-center
+      rounded-full border
+      px-2.5 py-1
+      text-xs font-medium;
+  }
+
+  .status-open {
+    @apply bg-indigo-50 text-indigo-600 border-indigo-200;
+  }
+
+  .status-closed {
+    @apply bg-green-50 text-green-600 border-green-200;
+  }
+
+  .status-awaiting {
+    @apply bg-amber-50 text-amber-600 border-amber-200;
+  }
+
+  .status-cancelled {
+    @apply bg-red-50 text-red-600 border-red-200;
+  }
+}

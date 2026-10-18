@@ -1,0 +1,102 @@
+{
+  "name": "dubaiam",
+  "description": "Application utilizing Sitecore JavaScript Services and Next.js",
+  "version": "0.1.0",
+  "private": true,
+  "config": {
+    "appName": "dubaiam",
+    "rootPlaceholders": [
+      "jss-main",
+      "jss-footer"
+    ],
+    "sitecoreConfigPath": "/App_Config/Include/zzz",
+    "graphQLEndpointPath": "/sitecore/api/graph/edge",
+    "language": "en",
+    "templates": [
+      "nextjs",
+      "nextjs-styleguide"
+    ]
+  },
+  "author": {
+    "name": "Sitecore Corporation",
+    "url": "https://jss.sitecore.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitecore/jss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sitecore/jss/issues"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@apollo/client": "^4.1.4",
+    "@react-google-maps/api": "^2.20.8",
+    "@sitecore-jss/sitecore-jss-nextjs": "~22.10.0",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tanstack/react-query": "^5.90.16",
+    "@types/react-google-recaptcha": "^2.1.9",
+    "axios": "^1.13.2",
+    "choices.js": "^11.1.0",
+    "compressorjs": "^1.2.1",
+    "date-fns": "^4.1.0",
+    "image-compressor.js": "^1.1.4",
+    "next": "^15.4.6",
+    "next-localization": "^0.12.0",
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-day-picker": "^9.13.2",
+    "react-dom": "^19.1.0",
+    "react-google-recaptcha": "^3.1.0",
+    "sharp": "0.34.3",
+    "swiper": "^12.0.3",
+    "tailwindcss": "^4.0.0",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@sitecore-jss/sitecore-jss-cli": "~22.10.0",
+    "@sitecore-jss/sitecore-jss-dev-tools": "~22.10.0",
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^22.9.0",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "chalk": "~4.1.2",
+    "chokidar": "~4.0.3",
+    "constant-case": "^3.0.4",
+    "cross-env": "~10.0.0",
+    "dotenv-flow": "^4.1.0",
+    "env-cmd": "^11.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^13.1.5",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-yaml": "^0.5.0",
+    "graphql": "^16.12.0",
+    "graphql-tag": "^2.12.6",
+    "npm-run-all": "~4.1.5",
+    "prettier": "^2.8.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "~5.4.0"
+  },
+  "scripts": {
+    "bootstrap": "ts-node --require dotenv-flow/config --project tsconfig.scripts.json scripts/bootstrap.ts",
+    "build": "cross-env NODE_ENV=production npm-run-all --serial bootstrap next:build",
+    "install-pre-push-hook": "ts-node --project tsconfig.scripts.json ./scripts/install-pre-push-hook.ts",
+    "jss": "jss",
+    "lint": "eslint ./src/**/*.tsx ./src/**/*.ts ./scripts/**/*.ts",
+    "next:build": "next build",
+    "next:dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "next:start": "next start",
+    "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold-component/index.ts",
+    "start": "env-cmd -f .env.disconnected cross-env NODE_ENV=development JSS_MODE=disconnected npm-run-all --serial bootstrap --parallel next:dev start:disconnected-proxy start:watch-components",
+    "start:connected": "env-cmd -f .env.connected cross-env NODE_ENV=development npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
+    "start:disconnected-proxy": "ts-node --project tsconfig.scripts.json ./scripts/disconnected-mode-proxy.ts",
+    "start:production": "cross-env-shell NODE_ENV=production npm-run-all --serial bootstrap next:build next:start",
+    "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch"
+  }
+}

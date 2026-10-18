@@ -1,0 +1,86 @@
+@layer components {
+  .input-base {
+    @apply h-12 w-full rounded-xl border border-lilac-500 bg-white-pure px-4 text-body-sm font-normal text-navy-500 outline-none glow;
+
+    &:focus {
+      @apply border-navy-500 ring-0;
+    }
+
+    &[data-filled='true'] {
+      @apply border-navy-500;
+    }
+
+    &[data-error='true'] {
+      @apply border-danger-500 bg-danger-50 text-danger-500;
+    }
+  }
+
+  .input-disabled {
+    @apply bg-disabled border-disabled text-secondary cursor-not-allowed opacity-70;
+  }
+
+  /* Base */
+  .form-group input:not(#date-input),
+  .form-group textarea,
+  .form-group select {
+    @apply w-full rounded-xl border border-lilac-500 px-4 py-3 outline-none bg-white-pure glow;
+  }
+
+  .form-group select {
+    @apply appearance-none;
+  }
+
+  /* Placeholder */
+  .form-group input:not(#date-input)::placeholder,
+  .form-group textarea::placeholder {
+    @apply text-body text-silver-chalice-700 font-light;
+  }
+
+  /* Focus */
+  .form-group input:not(#date-input):focus,
+  .form-group textarea:focus,
+  .form-group select:focus {
+    @apply border-navy-500 ring-0 shadow-none;
+  }
+
+  /* Filled (blurred) */
+  .form-group input:not(#date-input)[data-filled],
+  .form-group textarea[data-filled],
+  .form-group select[data-filled] {
+    @apply border-navy-500;
+  }
+
+  /* Error */
+  .form-group input:not(#date-input)[data-error],
+  .form-group textarea[data-error] {
+    @apply border-danger-500 bg-danger-50 text-danger-500 ring-0;
+  }
+
+  /* Disabled */
+  .form-group input:not(#date-input):disabled,
+  .form-group textarea:disabled,
+  .form-group select:disabled {
+    @apply bg-disabled border-disabled text-secondary cursor-not-allowed opacity-70 ring-0;
+  }
+
+  .form-group input[type='checkbox']:not(#date-input) {
+    @apply hidden;
+  }
+
+  .form-group input[type='checkbox']:not(#date-input) + label {
+    @apply block size-6 m-0 rounded-sm border border-solid border-lilac-500 relative cursor-pointer;
+  }
+
+  .form-group input[type='checkbox']:not(#date-input) + label::before {
+    @apply content-[''] w-full h-full absolute top-0 start-0 opacity-0 invisible transition-default bg-lilac-500;
+  }
+
+  .form-group input[type='checkbox']:not(#date-input) + label::after {
+    @apply content-[''] w-4 h-2 border-l-2 border-b-2 border-solid border-white-pure absolute top-[44%] left-1/2 -translate-1/2 -rotate-45 opacity-0 invisible;
+  }
+
+  .form-group input[type='checkbox']:not(#date-input):checked + label::before,
+  .form-group input[type='checkbox']:not(#date-input):checked + label::after {
+    @apply opacity-100 visible;
+  }
+}

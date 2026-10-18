@@ -1,0 +1,628 @@
+id: faqs
+routeFields:
+  pageTitle: Faqs
+fields:
+  pageTitle: Dubai Properties - Faqs
+placeholders:
+  jss-main:
+    - componentName: Header
+      fields:
+        logoLink:
+          href: /login
+          text: Home
+          target: _self
+          title: Go to Home
+
+        logoImage:
+          src: /data/media/img/svg/dubai-residential-logo-white.svg
+          alt: Dubai Residential Logo
+          width: 90
+          height: 56
+
+        navigationLinks:
+          - fields:
+              link:
+                href: /dashboard
+                text: Home
+                target: _self
+          - fields:
+              link:
+                href: /service-requests
+                text: Services
+                target: _self
+          - fields:
+              link:
+                href: /move-out
+                text: Move Out
+                target: _self
+          - fields:
+              link:
+                href: /move-in
+                text: Move In
+                target: _self
+          - fields:
+              link:
+                href: /community
+                text: Community
+                target: _self
+          - fields:
+              link:
+                href: /my-documents
+                text: My Documents
+                target: _self
+          - fields:
+              link:
+                href: /offers
+                text: Offers
+                target: _self
+          - fields:
+              link:
+                href: /payment
+                text: Payments
+                target: _self
+          - fields:
+              link:
+                href: /faqs
+                text: Faqs
+                target: _self
+
+        pageName:
+          value: Faqs
+    - componentName: PageBanner
+      fields:
+        heading: 'Frequently Asked Questions'
+        bannerImage:
+          src: /data/media/img/service-requests-banner.png
+          alt: Faqs Banner
+          width: 1920
+          height: 300
+    - componentName: FAQPage
+      fields:
+        title: Frequently asked questions
+        cta:
+          href: /faqs
+          text: view all FAQs
+          target: ''
+          title: view all FAQs
+          url: /faqs
+        faqs:
+          - fields:
+              tagName: NewLease
+              tagIcon:
+                src: /-/media/6DA9D624158B41179650E91B9AC510F9.png
+                alt: ''
+                width: '75'
+                height: '75'
+              faqIcon: >-
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 1C9.82441 1 7.69767 1.64514 5.88873 2.85383C4.07979 4.06253 2.66989 5.78049 1.83733 7.79048C1.00477 9.80047 0.786929 12.0122 1.21137 14.146C1.6358 16.2798 2.68345 18.2398 4.22183 19.7782C5.76021 21.3165 7.72022 22.3642 9.85401 22.7886C11.9878 23.2131 14.1995 22.9952 16.2095 22.1627C18.2195 21.3301 19.9375 19.9202 21.1462 18.1113C22.3549 16.3023 23 14.1756 23 12C22.9969 9.08356 21.837 6.28746 19.7748 4.22523C17.7125 2.16299 14.9164 1.00308 12 1ZM12 21.3077C10.1591 21.3077 8.35957 20.7618 6.82893 19.7391C5.29829 18.7163 4.10529 17.2627 3.40082 15.5619C2.69634 13.8611 2.51202 11.9897 2.87116 10.1842C3.2303 8.37864 4.11677 6.72017 5.41847 5.41847C6.72018 4.11676 8.37865 3.23029 10.1842 2.87115C11.9897 2.51201 13.8611 2.69634 15.5619 3.40081C17.2627 4.10529 18.7163 5.29828 19.7391 6.82892C20.7618 8.35956 21.3077 10.1591 21.3077 12C21.3049 14.4677 20.3234 16.8335 18.5784 18.5784C16.8335 20.3234 14.4677 21.3049 12 21.3077ZM18.7692 12C18.7692 12.2244 18.6801 12.4396 18.5214 12.5983C18.3627 12.757 18.1475 12.8462 17.9231 12.8462H12C11.7756 12.8462 11.5604 12.757 11.4017 12.5983C11.243 12.4396 11.1538 12.2244 11.1538 12V6.07692C11.1538 5.85251 11.243 5.63729 11.4017 5.4786C11.5604 5.31992 11.7756 5.23077 12 5.23077C12.2244 5.23077 12.4396 5.31992 12.5983 5.4786C12.757 5.63729 12.8462 5.85251 12.8462 6.07692V11.1538H17.9231C18.1475 11.1538 18.3627 11.243 18.5214 11.4017C18.6801 11.5604 18.7692 11.7756 18.7692 12Z" fill="currentColor"></path>
+                </svg>
+              items:
+                - fields:
+                    Question: 'What are the standard payment terms?'
+                    Answer: >-
+                      <ul>
+                        <li>The standard payment terms for the rental amount shall be 1 to 6 equal instalments spread over the tenure of the Tenancy Agreement.</li>
+                        <li>The first instalment can be of higher value than the remaining.</li>
+                      </ul>
+
+                - fields:
+                    Question: 'What cheques must be submitted to issue the Tenancy Agreement?'
+                    Answer: >-
+                      <p>Rent cheques, Security Deposit (refundable – equivalent to 5% of the annual rent amount), Ejari fee (administration and processing fee) and Housing fee (units that do not have DEWA-sub meter). If payment made by mode of Direct debit*/RC, security cheque for rental amount must be provided by the tenant.</p>
+                      <p>* Former Nakheel tenants, please be informed that the direct debit payment option is no longer available. Kindly use alternative payment methods such as post-dated cheques, bank transfers, or credit/debit card payments.</p>
+
+                - fields:
+                    Question: 'How do I schedule/reschedule the date of my viewing visit?'
+                    Answer: >-
+                      Please contact our Call Centre on <a href="tel:800 9933"><u>800 9933</u></a>. Visit Community center and meet with leasing staff.
+
+                - fields:
+                    Question: 'How much is the security deposit?'
+                    Answer: The security deposit is equivalent to 5% of the annual rent.
+
+                - fields:
+                    Question: 'How much is the Ejari registration fee?'
+                    Answer: 'Ejari registration fee is D 214.50 including VAT.'
+
+                - fields:
+                    Question: 'Is rental commission different for Dubai Residential and Brokers?'
+                    Answer: Commission is 5% of the annual rent is applied. However, for some projects the commission has been waived as part of a promotion. Nevertheless other Brokers commissions will still be applicable.
+
+                - fields:
+                    Question: 'Can I authorize someone to sign the contract on my behalf?'
+                    Answer: With attested and valid power of attorney clearly stating the authorization to sign residential leases we can accept someone to sign the contract on your behalf.
+
+                - fields:
+                    Question: 'What time can I do a viewing on a unit?'
+                    Answer: Our community site offices are open from Monday to Friday between 8am-6pm. We advise you to come no later than 5 pm if you wish to view a unit.
+
+                - fields:
+                    Question: 'Do I require a valid residency visa to rent a unit?'
+                    Answer: >-
+                      RERA requirements make it mandatory to possess a valid Emirates ID in order to receive an Ejari Certificate.
+                      <br /><br />
+                      To rent a unit without a valid residency visa you must submit a copy of the Emirates ID application, a letter confirming that you are employed, and send a copy of your work permit directly to us for consideration.
+
+                - fields:
+                    Question: 'Can I rent more than one unit at the same time?'
+                    Answer: Individual residents can rent only 1 unit at a time. All exceptions to this rule must be subject to review and approval from the management. Corporates with a valid UAE Business License Government Decree may lease multiple units. A single Tenancy Agreement is issued, provided the units are in the same building or block of units.
+
+                - fields:
+                    Question: 'Can a third party make a payment on my behalf?'
+                    Answer: 'Yes. Kindly prepare a third party NOC signed by you and the third party providing the cheque. The third party can then submit the NOC to us, along with a valid Residency visa, Passport copy and Emirates ID. Third party payments are subject to review and approval.'
+
+                - fields:
+                    Question: 'Can I align rental payments with my salary?'
+                    Answer: Yes. A request needs to be made during the preparation of the tenancy contract, this request will be subject to approval. Please note that once installment dates are set, we are unable to amend those dates until the time comes to renew your contract.
+
+                - fields:
+                    Question: 'Can I make cash payments?'
+                    Answer: >-
+                      Yes. Please visit a cashier at the onsite community teller. Cash payment is accepted if rent is settled in full, as the first rental installment with the remainder of installments by post dated cheque. If you would like to exchange a post dated cheque for cash payment, then D 100 plus VAT will be charged per cheque. Please note that no cash payment above 55,000 D will be accepted.
+
+                - fields:
+                    Question: 'Can I pay by credit card or cheque?'
+                    Answer: 'Yes, we accept both forms of payment.'
+
+                - fields:
+                    Question: 'Do I pay a fee to book a unit?'
+                    Answer: No. There is no fee for booking a unit, and the booked unit is held for a maximum of 24 hours. Only our affiliated external agents and Dubai Residential agents can book units to secure the property while the contract is issued.
+
+                - fields:
+                    Question: 'What if a cheque bounces?'
+                    Answer: >-
+                      <p>Please make a collection request through call center to recall cheques. Once ready, please collect the bounced cheque(s) from a cashier at your community Leasing Office, and pay the dues. A bounced cheque attracts a penalty of D 1000. VAT may Apply.</p>
+                      <p>A late payment fee is also charged for each day of delay starting from the actual due date on the cheque, calculated on a pro rata daily basis for each day under the contract that is not paid.</p>
+
+                - fields:
+                    Question: 'Can I defer a rent payment?'
+                    Answer: >-
+                      Deferring a payment is subject to the approval of Dubai Residential. Please submit your request no less than 14 working days before the payment is due. If your request is approved, an amount of D 250 + VAT per payment shall be applicable. Payment deferral fees shall not be applicable if the tenant is requesting for deferral during the time of renewal of the contract. Send us an email attaching supporting documents and a valid reason for deferring your payment.
+
+                - fields:
+                    Question: 'What is the cheque replacement fee?'
+                    Answer: >-
+                      Request to replace post-dated cheques is considered only if made no less than 14 working days prior to the payment due date.
+                      <br /><br />
+                      A fee of D 250 plus VAT each is applicable for replacing post-dated cheques.
+
+                - fields:
+                    Question: 'Does a bounced cheque from me invite legal action?'
+                    Answer: When a cheque bounces, our legal team is notified and will investigate. They then commence further action if payment and associated fees are not settled within the communicated time frame.
+
+          - fields:
+              tagName: Movein
+              tagIcon:
+                src: /-/media/9E61574703444038AA0B5E9B43EC6312.png
+                alt: ''
+                width: '75'
+                height: '75'
+              faqIcon: >-
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.0001 12C21.0001 12.1989 20.9211 12.3897 20.7804 12.5303C20.6398 12.671 20.449 12.75 20.2501 12.75H5.56041L11.0307 18.2194C11.1004 18.289 11.1557 18.3718 11.1934 18.4628C11.2311 18.5539 11.2505 18.6514 11.2505 18.75C11.2505 18.8485 11.2311 18.9461 11.1934 19.0372C11.1557 19.1282 11.1004 19.2109 11.0307 19.2806C10.961 19.3503 10.8783 19.4056 10.7873 19.4433C10.6962 19.481 10.5986 19.5004 10.5001 19.5004C10.4016 19.5004 10.304 19.481 10.2129 19.4433C10.1219 19.4056 10.0392 19.3503 9.96948 19.2806L3.21948 12.5306C3.14974 12.461 3.09443 12.3782 3.05668 12.2872C3.01894 12.1961 2.99951 12.0986 2.99951 12C2.99951 11.9014 3.01894 11.8038 3.05668 11.7128C3.09443 11.6217 3.14974 11.539 3.21948 11.4694L9.96948 4.71936C10.1102 4.57863 10.3011 4.49957 10.5001 4.49957C10.6991 4.49957 10.89 4.57863 11.0307 4.71936C11.1715 4.8601 11.2505 5.05097 11.2505 5.24999C11.2505 5.44901 11.1715 5.63988 11.0307 5.78061L5.56041 11.25H20.2501C20.449 11.25 20.6398 11.329 20.7804 11.4697C20.9211 11.6103 21.0001 11.8011 21.0001 12Z" fill="currentColor"></path>
+                </svg>
+              items:
+                - fields:
+                    Question: 'What is the Move-In process?'
+                    Answer: >-
+                      <p>As soon as lease is signed download the Dubai Residential APP to commence the move in process for residential units. For staff accommodation, please visit the Property Management and provide below mentioned documents.</p>
+                      <p>Upload the necessary utilities registration and schedule your move in appointment. You will be contacted to confirm the appointment with our Property Management Executive.</p>
+                      <p>Required documentation:</p>
+                      <p>· Copy of DEWA, Empower connection documentation and gas connection, if applicable.</p>
+                      <p>· A valid UAE ID of the person whose name is under the Tenancy Agreement.</p>
+
+                - fields:
+                    Question: "I haven't completed my utility registration; can I still move into my unit?"
+                    Answer: Utility registration is a mandatory requirement and must be completed before you move into your unit. This process is not applicable for the Staff Accommodation Projects.
+
+                - fields:
+                    Question: 'Does someone ensure my unit is in good condition before I move-in?'
+                    Answer: >-
+                      <p>Yes, your unit will be in good condition for your move-in appointment. All units are reinstated as per Dubai Residential standards and will be handed over to you in 'as-is' condition.</p>
+                      <p>If you face issues with your unit after moving in, please contact call us at 800 9933 or raise a service request through the Dubai Residential APP.</p>
+
+                - fields:
+                    Question: 'I am unable to attend the move-in appointment. Can I send someone on my behalf?'
+                    Answer: If you are unable to attend this appointment, please appoint an authorised person to attend on your behalf. Make sure you provide us with Power of Attorney / authorisation or email/letter sent from the registered email, as per the contract.
+
+                - fields:
+                    Question: 'What if I am unhappy with the condition of my unit the day I move in?'
+                    Answer: In the unlikely event that you are not willing to accept your unit in the condition it is in, the Property Management Executive will address your concerns and investigate further.
+
+          - fields:
+              tagName: Renewal
+              tagIcon:
+                src: /-/media/31C721BB9D114FC5A3B6D6371362D6B5.png
+                alt: ''
+                width: '75'
+                height: '75'
+              faqIcon: >-
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 4.49918V9.4994C23 9.72043 22.9109 9.9324 22.7522 10.0887C22.5935 10.245 22.3783 10.3328 22.1539 10.3328H17.0771C16.8527 10.3328 16.6374 10.245 16.4788 10.0887C16.3201 9.9324 16.2309 9.72043 16.2309 9.4994C16.2309 9.27838 16.3201 9.06641 16.4788 8.91012C16.6374 8.75384 16.8527 8.66603 17.0771 8.66603H19.9751L17.1627 6.12842L17.1363 6.10342C15.9603 4.94554 14.4639 4.15464 12.8341 3.82951C11.2043 3.50438 9.5134 3.65944 7.97258 4.27531C6.43175 4.89119 5.10934 5.94058 4.17053 7.29239C3.23172 8.6442 2.71814 10.2385 2.69395 11.8761C2.66976 13.5137 3.13603 15.1221 4.03451 16.5002C4.93299 17.8784 6.22385 18.9652 7.74583 19.625C9.26781 20.2847 10.9534 20.4882 12.5921 20.2099C14.2308 19.9316 15.7499 19.1839 16.9597 18.0602C17.1228 17.9083 17.3405 17.8263 17.5649 17.8325C17.7894 17.8387 18.0021 17.9324 18.1564 18.093C18.3107 18.2537 18.3939 18.4681 18.3876 18.6892C18.3814 18.9102 18.2862 19.1198 18.1231 19.2717C16.242 21.0288 13.7467 22.0057 11.1541 22H11.0145C9.35161 21.9775 7.71973 21.5531 6.26234 20.7641C4.80494 19.975 3.56665 18.8454 2.65629 17.4746C1.74593 16.1038 1.19138 14.5338 1.04139 12.9024C0.891387 11.2711 1.15053 9.62846 1.79604 8.11888C2.44155 6.6093 3.45366 5.27899 4.74342 4.24489C6.03317 3.21078 7.56109 2.50454 9.19287 2.18823C10.8246 1.87192 12.5103 1.95523 14.1018 2.43084C15.6932 2.90645 17.1417 3.75979 18.3198 4.91586L21.3077 7.60349V4.49918C21.3077 4.27815 21.3969 4.06618 21.5556 3.90989C21.7142 3.75361 21.9295 3.66581 22.1539 3.66581C22.3783 3.66581 22.5935 3.75361 22.7522 3.90989C22.9109 4.06618 23 4.27815 23 4.49918Z" fill="currentColor"></path>
+                </svg>
+              items:
+                - fields:
+                    Question: 'What is the process to renew my lease?'
+                    Answer: >-
+                      <ol>
+                        <li>90 days prior to the expiration of your Tenancy Contract you will receive a renewal notice on your registered email along with the instructions on how to renew.</li>
+                        <li>You may commence the renewal process through the Dubai Residential APP.</li>
+                        <li>Once you have compiled all your documents, you contact us via Dubai Residential APP to schedule a pickup. You may contact us at 800-9933 for any further clarification.</li>
+                        <li>The Operations team will review your documentation and process your new Tenancy Agreement.</li>
+                        <li>A copy of your Tenancy Agreement, Ejari agreement and payment receipts will be sent to you via courier.</li>
+                      </ol>
+
+                - fields:
+                    Question: 'How do I calculate my annual renewal rent?'
+                    Answer: >-
+                      To determine the exact amount, visit the RERA calculator online at:
+                      <a href="https://www.dubailand.gov.ae/English/Pages/Rental-Increase-calculator.aspx"><u>https://www.dubailand.gov.ae/English/Pages/Rental-Increase-calculator.aspx</u></a>
+
+                - fields:
+                    Question: 'What if I wish to terminate my lease?'
+                    Answer: >-
+                      If you do not wish to renew your lease, you must provide written notice of non-renewal 2 months for individual and 3 months for corporate tenant prior to the expiry date. Failure to do so will incur in a penalty of 2 months for individual and 3 months for corporate tenant of rent. Notice can be sent via email at <a href="mailto:customercare@dubairesidential.ae"><u>customercare@dubairesidential.ae</u></a>. Tenant can also initiate move out on the Dubai Residential APP.
+
+                - fields:
+                    Question: 'Does terminating my Tenancy Contract involve a penalty?'
+                    Answer: If you terminate your contract more than 60 days prior to its expiration, a penalty of 2 months of rent is applicable. If you terminate your Tenancy Agreement within the last 2 months of its expiration, no refund of the rent is applicable. For corporate tenants, an early termination penalty of 3 months shall apply.
+
+                - fields:
+                    Question: 'What if I fail to complete the termination process and vacate my unit after the expiration of my Tenancy Agreement?'
+                    Answer: >-
+                      <p>You are charged for DEWA, Empower and a penalty fee; which is calculated according to the amount of days you overstay as per the applicable renewal rent amount.</p>
+                      <p>Legal charges may be applicable pending the circumstances. D 50 per day holding over fee (in addition to the Rent) calculated on a pro rata daily basis for each day that the Tenant remains in the Premises after the Expiry Date.</p>
+
+                - fields:
+                    Question: 'When is the latest I can renew my Tenancy Contract?'
+                    Answer: Please complete the Remote Renewal process prior to the expiry date on your Tenancy Contract. Failure to renew prior to expiry date shall incur a late renewal fee calculated at 50 D per day and a holding over fee calculated at 50 D per day (in addition to the Rent).
+
+                - fields:
+                    Question: 'Please explain the calculation for annual rent?'
+                    Answer: We adhere to RERA standards and do not surprise you with random rent fluctuations. The RERA index is updated annually and our rental rates are adjusted accordingly.
+
+                - fields:
+                    Question: 'Can I renew my Tenancy Contract?'
+                    Answer: Yes as long as all the required documents are submitted and you have no pending payments with Dubai Residential.
+
+                - fields:
+                    Question: 'Can I renew my Tenancy Agreement for less than one year?'
+                    Answer: >-
+                      Yes. You can renew your contract on a short term basis for a minimum of 1 month to a maximum of 6 months. The renewal rent, based on the RERA index, will be applied for each renewal along with a 10% of the renewal rent premium if the renewal period is less than 6 months and the following fees will be charged: 500 D plus VAT admin fees and 214.50 D including VAT Ejari administration and processing fee. Please visit the contact our call centre on <a href="tel:800 9933"><u>800 9933</u></a> to place your request.
+
+                - fields:
+                    Question: 'Can a third party pay my rent?'
+                    Answer: >-
+                      <p>If you are not the issuer of cheques, please submit an NOC for third party payment.</p>
+                      <p>Please e-mail the enquiry to us at <a href="mailto:customercare@dubairesidential.ae">customercare@dubairesidential.ae</a> or call us at <a href="tel:800 9933">800 9933</a> for further assistance.</p>
+
+                - fields:
+                    Question: 'What are the modes of payment upon renewal?'
+                    Answer: >-
+                      <ul>
+                        <li>Post dated cheques</li>
+                        <li>Using credit, debit, bank transfer or cash payments depending on the amount (for one-time payment)</li>
+                        <li>Using recurring credit/debit card. You will require to provide an undated guarantee cheque with the full contract rent amount</li>
+                      </ul>
+
+                - fields:
+                    Question: 'Can I transfer the lease to a family member or to a business account?'
+                    Answer: >-
+                      <p>You may request to transfer the existing tenancy contract to a direct family member (parent, sibling, spouse) or business account. Eligibility for Transfer of Unit:</p>
+                      <p>· An existing valid lease contract</p>
+                      <p>· The tenant has a clear history and no outstanding amounts.</p>
+                      <p>· Availability of final DEWA bill request.</p>
+                      <p>· Minimum of 10 days from the next payment (cheque)</p>
+                      <p>A transfer fee of 1050 D shall be applicable along with EJARI fees</p>
+
+          - fields:
+              tagName: Moveout
+              tagIcon:
+                src: /-/media/1073F58BD9804A8DB34C6DC3E93F517D.png
+                alt: ''
+                width: '75'
+                height: '75'
+              faqIcon: >-
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.1664 22.0833C10.1664 22.3264 10.0698 22.5596 9.89789 22.7315C9.72599 22.9034 9.49284 23 9.24973 23H1.91664C1.67353 23 1.44038 22.9034 1.26848 22.7315C1.09657 22.5596 1 22.3264 1 22.0833V1.91667C1 1.67355 1.09657 1.44039 1.26848 1.26849C1.44038 1.09658 1.67353 1 1.91664 1H9.24973C9.49284 1 9.72599 1.09658 9.89789 1.26849C10.0698 1.44039 10.1664 1.67355 10.1664 1.91667C10.1664 2.15978 10.0698 2.39294 9.89789 2.56485C9.72599 2.73676 9.49284 2.83333 9.24973 2.83333H2.83327V21.1667H9.24973C9.49284 21.1667 9.72599 21.2632 9.89789 21.4352C10.0698 21.6071 10.1664 21.8402 10.1664 22.0833ZM22.7312 11.3515L18.148 6.76812C17.976 6.59612 17.7427 6.49949 17.4995 6.49949C17.2562 6.49949 17.0229 6.59612 16.8509 6.76812C16.6789 6.94013 16.5823 7.17342 16.5823 7.41667C16.5823 7.65992 16.6789 7.89321 16.8509 8.06521L19.8701 11.0833H9.24973C9.00662 11.0833 8.77347 11.1799 8.60157 11.3518C8.42967 11.5237 8.33309 11.7569 8.33309 12C8.33309 12.2431 8.42967 12.4763 8.60157 12.6482C8.77347 12.8201 9.00662 12.9167 9.24973 12.9167H19.8701L16.8509 15.9348C16.6789 16.1068 16.5823 16.3401 16.5823 16.5833C16.5823 16.8266 16.6789 17.0599 16.8509 17.2319C17.0229 17.4039 17.2562 17.5005 17.4995 17.5005C17.7427 17.5005 17.976 17.4039 18.148 17.2319L22.7312 12.6485C22.8164 12.5634 22.884 12.4623 22.9301 12.351C22.9763 12.2397 23 12.1205 23 12C23 11.8795 22.9763 11.7603 22.9301 11.649C22.884 11.5377 22.8164 11.4366 22.7312 11.3515Z" fill="currentColor"></path>
+                </svg>
+              items:
+                - fields:
+                    Question: 'What documents do I need to submit to move out of my unit?'
+                    Answer: >-
+                      <p>Move out should be initiated through the Dubai Residential APP for any residential unit. For staff accommodation, please visit the Property Management, settle any outstanding and provide the below mentioned documents.</p>
+                      <ol>
+                        <li>Final utility bills (DEWA/ Empower)/ Request letter to DEWA/ Empower for final bills.</li>
+                        <li>Your bank details for a bank transfer of the refund.</li>
+                        <li>Tenant authorization letter (if you are unable to attend this meeting).</li>
+                      </ol>
+
+                - fields:
+                    Question: 'What is the Move-Out process?'
+                    Answer: >-
+                      The move-out meeting involves a joint inspection of the property with an inspector, handing over access cards, and completing the inspection in order to refund the security deposit.
+                      <br /><br />
+                      The unit must be returned in the same condition it was received.
+
+                - fields:
+                    Question: 'Do I need to get a Move-Out Permit?'
+                    Answer: >-
+                      Yes. Tenants should carry out the move out process through the Dubai Residential APP or contact 800 9933 for any clarification. Appointments scheduled for move out will be between 8:00 AM-4:30 PM.
+                      <br /><br />
+                      The Move-Out Permit is obligatory and must be submitted to the Community Security Office before moving out your furniture and belongings.
+
+                - fields:
+                    Question: 'What if my Tenancy Agreement expires on a public holiday or weekend?'
+                    Answer: >-
+                      <p>If your Tenancy Agreement expires on a public holiday or weekend, you may vacate the unit on the next working day.</p>
+                      <p>You will not be charged an overstay penalty fee.</p>
+
+                - fields:
+                    Question: "What if I can't attend the move-out meeting?"
+                    Answer: A tenant can nominate a third party to carry out the inspection. Alternatively, please submit a letter to the Property Management Team and handover your access cards to security.
+
+                - fields:
+                    Question: 'When is the security deposit refunded to me?'
+                    Answer: The security deposit is refunded to you 30 working days from the day you submit your last utility bills. The refund is directly transferred to your bank account, and you will receive a notification once it is credited. If the refund is less than 5,000 D then it will be refunded in cash.
+
+                - fields:
+                    Question: 'Can a third party receive my security deposit refund?'
+                    Answer: Yes by providing a 3rd party NOC and subject to review and approval.
+
+          - fields:
+              tagName: In your Home
+              tagIcon:
+                src: /-/media/E093926137AA40E19C1AC10E5181807A.png
+                alt: ''
+                width: '75'
+                height: '75'
+              faqIcon: >-
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.487 10.3245L12.737 1.57454C12.4089 1.24659 11.9639 1.06238 11.5 1.06238C11.0361 1.06238 10.5911 1.24659 10.263 1.57454L1.51298 10.3245C1.34969 10.4866 1.22025 10.6795 1.13218 10.8921C1.04412 11.1046 0.999192 11.3326 1.00001 11.5626V22.0626C1.00001 22.2947 1.0922 22.5173 1.25629 22.6814C1.42039 22.8455 1.64295 22.9376 1.87501 22.9376H8.875C9.10707 22.9376 9.32963 22.8455 9.49372 22.6814C9.65781 22.5173 9.75 22.2947 9.75 22.0626V15.9376H13.25V22.0626C13.25 22.2947 13.3422 22.5173 13.5063 22.6814C13.6704 22.8455 13.8929 22.9376 14.125 22.9376H21.125C21.3571 22.9376 21.5796 22.8455 21.7437 22.6814C21.9078 22.5173 22 22.2947 22 22.0626V11.5626C22.0008 11.3326 21.9559 11.1046 21.8678 10.8921C21.7798 10.6795 21.6503 10.4866 21.487 10.3245ZM20.25 21.1876H15V15.0626C15 14.8306 14.9078 14.608 14.7437 14.4439C14.5796 14.2798 14.3571 14.1876 14.125 14.1876H8.875C8.64294 14.1876 8.42038 14.2798 8.25629 14.4439C8.09219 14.608 8 14.8306 8 15.0626V21.1876H2.75001V11.5626L11.5 2.81266L20.25 11.5626V21.1876Z" fill="currentColor"></path>
+                </svg>
+              items:
+                - fields:
+                    Question: 'What does the maintenance cover?'
+                    Answer: Facilities management is available 24/7 to assist you with issues related to mechanical, electrical and plumbing in your unit. Emergency maintenance during the night is available; however, appointment for regular services are scheduled during the day.
+
+                - fields:
+                    Question: 'Where do I log a maintenance service request?'
+                    Answer: >-
+                      <p>Please log all service requests on the Dubai Residential app, which can be downloaded on the iTunes and Google Play stores. If you have further requests, please contact the Call Centre at <a href="tel:800 9933">800 9933</a>, send an email to customercare@dubairesidential.ae.</p>
+
+                - fields:
+                    Question: 'How often is my unit repainted?'
+                    Answer: Upon request, your unit could be repainted internally every 3 years. Repainting requests are scheduled on a first come, first served basis subject to availability.
+
+                - fields:
+                    Question: 'I would like to carry out alterations to my unit. Does this require any formal approvals?'
+                    Answer: Approvals depend on the kind of alterations you seek. Please contact us at 800 9933 or send an email to customercare@dubairesidential.ae detailing the alterations to undertake.
+
+                - fields:
+                    Question: 'Why do I need to give access for maintenance?'
+                    Answer: >-
+                      <p>It is important to allow maintenance access to your property every 3 months to service the AC system, fire alarms and safety equipment.</p>
+                      <p>This helps maintain the quality of these assets and ensures their proper functioning.</p>
+
+                - fields:
+                    Question: 'What happens if I refuse to give access?'
+                    Answer: If you are unable to give access at the time of visit, please speak to the Call Centre on 800 9933 to schedule a visit at your convenience. Failure to provide access to your unit for one full quarter is a violation of the terms of the Tenancy Agreement.
+
+                - fields:
+                    Question: 'May I install a satellite dish for my property?'
+                    Answer: >-
+                      <p>We have installed a common satellite dish for apartment buildings and subscription is paid to the supplier depending on the number of sockets you use.</p>
+                      <p>Satellite dishes are allowed in villas as long as they are installed on the roof and not on a balcony, and are not evident in plain sight.</p>
+
+                - fields:
+                    Question: 'May I plant Damas trees in my garden?'
+                    Answer: It is against Dubai Municipality Regulations to plant Damas trees and therefore not allowed within our communities.
+
+                - fields:
+                    Question: 'How do I change my unit?'
+                    Answer: >-
+                      <p>Please raise a request through the Dubai Residential APP or contact the call center at 8009933. A leasing agent shall contact you and check the availability of other units. In order to change your unit, we issue a new Tenancy Agreement, and ask for a new security deposit and a transfer fee of D 1,000 plus VAT.</p>
+
+          - fields:
+              tagName: In the community
+              tagIcon:
+                src: /-/media/5399FFC35D9548EBA4EA0FCADC904F5C.png
+                alt: ''
+                width: '75'
+                height: '75'
+              faqIcon: >-
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.8406 10.1166L21.4481 5.3297C21.36 5.15352 21.238 4.99642 21.0892 4.86737C20.9403 4.73833 20.7675 4.63988 20.5806 4.57763C20.3937 4.51539 20.1963 4.49057 19.9998 4.5046C19.8033 4.51863 19.6115 4.57123 19.4353 4.65939L17.1038 5.8247L12.1922 4.52533C12.0662 4.49253 11.9338 4.49253 11.8078 4.52533L6.89625 5.8247L4.56469 4.65939C4.38851 4.57123 4.1967 4.51863 4.0002 4.5046C3.80369 4.49057 3.60635 4.51539 3.41944 4.57763C3.23253 4.63988 3.05971 4.73833 2.91085 4.86737C2.76199 4.99642 2.64001 5.15352 2.55188 5.3297L0.159376 10.1156C0.0712097 10.2918 0.0186106 10.4836 0.00458229 10.6801C-0.00944601 10.8766 0.0153713 11.074 0.077617 11.2609C0.139863 11.4478 0.238318 11.6206 0.367359 11.7695C0.4964 11.9183 0.653501 12.0403 0.829689 12.1285L3.36094 13.395L8.56313 17.1103C8.63978 17.1649 8.72595 17.2046 8.81719 17.2275L14.8172 18.7275C14.9428 18.759 15.0745 18.7575 15.1994 18.723C15.3242 18.6885 15.438 18.6222 15.5297 18.5306L20.6925 13.3669L23.1694 12.1285C23.525 11.9504 23.7953 11.6385 23.921 11.2613C24.0467 10.884 24.0175 10.4723 23.8397 10.1166H23.8406ZM18.6947 13.245L15.4688 10.6613C15.3242 10.5455 15.142 10.4873 14.9572 10.4979C14.7723 10.5085 14.5979 10.587 14.4675 10.7185C12.7978 12.4003 10.9369 12.1875 9.75 11.4375L13.8038 7.50002H16.7859L19.3369 12.601L18.6947 13.245ZM3.89344 6.00002L5.8125 6.95814L3.41531 11.7441L1.5 10.7869L3.89344 6.00002ZM14.7684 17.1685L9.32063 15.8072L4.70813 12.5128L7.33313 7.26283L12 6.02627L12.9188 6.26908L8.7 10.3641L8.6925 10.3725C8.53369 10.5313 8.41257 10.7238 8.33808 10.9356C8.26359 11.1475 8.23762 11.3734 8.26209 11.5967C8.28657 11.8199 8.36086 12.0348 8.47949 12.2255C8.59812 12.4162 8.75806 12.5778 8.9475 12.6985C10.875 13.9294 13.2009 13.7297 15.0328 12.2297L17.625 14.3119L14.7684 17.1685ZM20.5809 11.7431L18.1884 6.96189L20.1066 6.00002L22.5 10.7869L20.5809 11.7431ZM12.3544 20.431C12.3139 20.5931 12.2204 20.737 12.0887 20.8399C11.9571 20.9428 11.7949 20.9988 11.6278 20.9991C11.5662 20.999 11.5048 20.9914 11.445 20.9766L7.53844 19.9997C7.44707 19.9772 7.36084 19.9374 7.28438 19.8825L4.81406 18.1181C4.66217 17.9989 4.56214 17.8256 4.53479 17.6345C4.50744 17.4433 4.55488 17.2489 4.66724 17.0919C4.77961 16.9348 4.94822 16.8271 5.13798 16.7913C5.32774 16.7554 5.52402 16.7942 5.68594 16.8994L8.04 18.5813L11.8125 19.5225C12.0054 19.5708 12.1713 19.6937 12.2736 19.8642C12.3759 20.0348 12.4063 20.2389 12.3581 20.4319L12.3544 20.431Z" fill="currentColor"></path>
+                </svg>
+              items:
+                - fields:
+                    Question: 'I have noticed faults in common areas of the community. Where do I report these?'
+                    Answer: If you notice faults in common areas of the community please share the details with us by raising maintenance request through the Dubai Residential APP or calling the call center on 800 9933.
+
+                - fields:
+                    Question: 'How do I file a complaint against my neighbor?'
+                    Answer: Please file your complaint through the Dubai Residential APP or Call Centre on 800 9933 or the Property Management Office until 5:00 pm, after which time you will need to contact the police.
+
+                - fields:
+                    Question: 'Who is responsible for pruning trees in common areas of the community and in my property?'
+                    Answer: Pruning trees in common areas is the responsibility of the Property Management team. Pruning trees within your own garden is your responsibility.
+
+                - fields:
+                    Question: 'May I trim trees and shrubs around my property?'
+                    Answer: Trees and shrubs planted in the community's common areas are under the jurisdiction of the Property Management and are maintained by the appointed landscaping team. No alteration to the common area will be permitted.
+
+                - fields:
+                    Question: 'May I change trees and shrubs planted in common areas of the community?'
+                    Answer: Trees and shrubs planted in common areas belong to the Property Management, and individual tenants are not permitted to make changes in order to protect the overall design and aesthetics of the community.
+
+          - fields:
+              tagName: miscellaneous
+              tagIcon:
+                src: /-/media/B90D5C1DA1524159B791C75B227FFE71.png
+                alt: ''
+                width: '69'
+                height: '69'
+              faqIcon: >-
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.4301 4.75732C21.3788 4.63056 21.2976 4.51813 21.1933 4.42968C21.089 4.34122 20.9648 4.27938 20.8314 4.24945C20.698 4.21952 20.5593 4.2224 20.4272 4.25785C20.2951 4.29329 20.1736 4.36024 20.0731 4.45295L15.814 8.38337L13.9931 7.99234L13.602 6.17139L17.5325 1.91229C17.6252 1.81177 17.6921 1.69027 17.7276 1.5582C17.763 1.42613 17.7659 1.28744 17.736 1.15401C17.706 1.02058 17.6442 0.896404 17.5557 0.792126C17.4673 0.687847 17.3548 0.60658 17.2281 0.555293C16.0729 0.0879898 14.8206 -0.0884511 13.5812 0.0414729C12.3419 0.171397 11.1534 0.603709 10.1202 1.30043C9.08705 1.99714 8.2408 2.93694 7.65581 4.03724C7.07083 5.13754 6.76503 6.36468 6.76528 7.61082C6.76391 8.6631 6.97978 9.70433 7.39939 10.6693L1.0361 16.1713C1.02025 16.184 1.00545 16.1988 0.990654 16.2125C0.356349 16.8468 0 17.7071 0 18.6042C0 19.0483 0.0874858 19.4882 0.257462 19.8985C0.427439 20.3089 0.676578 20.6817 0.990654 20.9958C1.30473 21.3099 1.67759 21.559 2.08795 21.729C2.49831 21.899 2.93813 21.9865 3.3823 21.9865C4.27935 21.9865 5.13965 21.6301 5.77395 20.9958C5.78769 20.9821 5.80249 20.9662 5.81517 20.9514L11.3161 14.586C12.4748 15.0947 13.7422 15.3063 15.0033 15.2017C16.2645 15.0972 17.4796 14.6797 18.5388 13.9872C19.598 13.2946 20.4677 12.3489 21.0693 11.2355C21.6708 10.1221 21.9852 8.8763 21.9839 7.61082C21.9855 6.63279 21.7975 5.66373 21.4301 4.75732ZM14.3746 13.5292C13.3738 13.5278 12.3897 13.2733 11.5137 12.7894C11.344 12.6956 11.1472 12.663 10.9563 12.6971C10.7655 12.7312 10.5921 12.8298 10.4653 12.9764L4.55752 19.8185C4.23782 20.1222 3.81212 20.289 3.37119 20.2834C2.93025 20.2777 2.50896 20.1001 2.19715 19.7883C1.88533 19.4764 1.70766 19.0552 1.70201 18.6142C1.69637 18.1733 1.8632 17.7476 2.16693 17.4279L9.00368 11.5212C9.1506 11.3943 9.24938 11.2207 9.28344 11.0296C9.3175 10.8385 9.28477 10.6415 9.19075 10.4717C8.65178 9.49691 8.39885 8.38981 8.46102 7.27768C8.5232 6.16554 8.89795 5.09353 9.54221 4.18488C10.1865 3.27624 11.0741 2.56784 12.103 2.14115C13.1319 1.71445 14.2603 1.58677 15.3585 1.77278L12.0611 5.34599C11.9694 5.44552 11.9029 5.56562 11.8672 5.69619C11.8315 5.82677 11.8277 5.964 11.8561 6.09635L12.4543 8.87903C12.4885 9.03819 12.5679 9.18408 12.683 9.29919C12.7982 9.4143 12.944 9.49373 13.1032 9.52794L15.888 10.1261C16.0203 10.1545 16.1576 10.1507 16.2882 10.115C16.4187 10.0793 16.5388 10.0128 16.6384 9.92109L20.2116 6.62372C20.354 7.47238 20.3099 8.34188 20.0823 9.17176C19.8546 10.0016 19.4489 10.772 18.8934 11.4292C18.3379 12.0864 17.6459 12.6147 16.8655 12.9773C16.0851 13.34 15.2351 13.5283 14.3746 13.5292Z" fill="currentColor"></path>
+                </svg>
+              items:
+                - fields:
+                    Question: 'Is extra storage space available to me?'
+                    Answer: Rental storage space varies per community. For more information please send an email to customercare@dubairesidential.ae or speak to the Call Centre on 800 9933.
+
+                - fields:
+                    Question: 'May I post on the notice boards in common areas?'
+                    Answer: Notice boards are solely for the use of the Property Management team.
+
+                - fields:
+                    Question: 'What is the purpose of the annual survey for tenants?'
+                    Answer: Your feedback is important to us. Annual surveys are conducted to help us know our tenants better, and to get insightful feedback on how to improve the living standards within the community. The surveys are anonymous.
+
+                - fields:
+                    Question: 'May I host a private party or event in a common area?'
+                    Answer: Yes. Please book the common area at least one week before the event by raising a request through the Dubai Residential APP, by visiting your community's Property Management Office, or by emailing customercare@dubairesidential.ae. We do not permit exclusive reservation of a common area for private events.
+
+                - fields:
+                    Question: 'May I use the community pool area for a private party or event?'
+                    Answer: As a health and safety precaution, and to avoid inconvenience to other tenants, we do not permit the use of swimming pools as venues for private events.
+
+                - fields:
+                    Question: 'What are the consequences of the violation notice I received?'
+                    Answer: Receiving this letter means you violated a term of your Tenancy Agreement, or a clause in the community rules and regulations. Please comply with the request in the notice, and rectify the situation as soon as possible. If not, legal action could be taken or a fine will be imposed.
+
+                - fields:
+                    Question: 'What is the fee for a new access card/ Parking Tag?'
+                    Answer: D 200 plus VAT per card in the case that card is lost. Any additional cards can be purchased based on the relevant policy.
+
+                - fields:
+                    Question: 'May I sublet my unit or a part of it to another person?'
+                    Answer: Subleasing your property or a part of it to any person is not permitted, and is against the rules and regulations of RERA. Doing so invites legal action and eviction from your unit.
+
+                - fields:
+                    Question: 'Are pets allowed?'
+                    Answer: Our communities are pet friendly, and we welcome pets within apartments as long as they are allowed by Dubai Municipality, have been chipped (for cats and dogs), do not create noise or disturbance to other tenants, and are kept on a leash at all times when in common areas.
+
+                - fields:
+                    Question: 'Why is an Empower meter installed in my unit?'
+                    Answer: Empower meters are installed to create a direct relationship between you and your utility provider, and allow you control over consumption of RT (Refrigeration Tonnes). Billing is in proportion to BTU meter consumption and charged monthly.
+
+                - fields:
+                    Question: 'What are the Empower charges?'
+                    Answer: Charges include Monthly Consumption and Maintenance.
+
+                - fields:
+                    Question: 'May I book the amenities (football, paddle, tennis courts, etc)?'
+                    Answer: Where applicable, you may book certain amenities through the Dubai Residential APP if terms of use are strictly followed.
+  jss-footer:
+    - componentName: Footer
+      fields:
+        version: 2
+        logoLink:
+          href: /
+          text: 'Home'
+          target: '_self'
+          title: 'Go to Home'
+        logoImage:
+          src: '/data/media/img/svg/dubai-residential-logo-white.svg'
+          alt: 'Dubai Residential White Logo'
+          width: 140
+          height: 87
+        appStoreLink:
+          href: 'https://apps.apple.com/app-link'
+          text: 'Download on the App Store'
+          target: '_blank'
+          title: 'Go to App Store'
+        appStoreImage:
+          src: '/data/media/img/svg/app-store.svg'
+          alt: 'Dubai Residential Logo'
+          width: 82
+          height: 50
+        googlePlayLink:
+          href: 'https://play.google.com/store-link'
+          text: 'Get it on Google Play'
+          target: '_blank'
+          title: 'Go to Google Play'
+        googlePlayImage:
+          src: '/data/media/img/svg/play-store.svg'
+          alt: 'Dubai Residential Logo'
+          width: 82
+          height: 50
+        customerCareLabel: 'Customer Care'
+        customerCareNumber: '800 9933'
+        customerCareIcon: |
+          <svg  width="30" height="30" viewBox="0 0 24 24">
+            <path d="M1.01281 17.6187C1.20895 19.1093 1.94098 20.4775 3.07215 21.4677C4.20333 22.458 5.65631 23.0027 7.15972 23C15.8939 23 23 15.8939 23 7.15984C23.0027 5.65644 22.458 4.20347 21.4677 3.0723C20.4774 1.94113 19.1093 1.20912 17.6187 1.01298C17.2418 0.966954 16.8601 1.04407 16.5306 1.2328C16.2011 1.42154 15.9415 1.71178 15.7905 2.06019L13.4672 7.24674V7.25994C13.3516 7.52664 13.3039 7.81782 13.3283 8.10747C13.3526 8.39712 13.4484 8.67623 13.6069 8.91985C13.6267 8.94955 13.6476 8.97705 13.6696 9.00455L15.9599 11.7194C15.136 13.3936 13.3847 15.1294 11.6885 15.9555L9.01105 13.6774C8.98476 13.6553 8.95721 13.6347 8.92855 13.6158C8.68512 13.4534 8.40506 13.3543 8.11369 13.3274C7.82232 13.3006 7.52885 13.3467 7.25982 13.4618L7.24552 13.4684L2.06333 15.7905C1.7143 15.941 1.42335 16.2004 1.23399 16.5299C1.04463 16.8594 0.967039 17.2414 1.01281 17.6187ZM2.75964 17.3987C2.75964 17.3987 2.76734 17.3987 2.77174 17.3987L7.94183 15.0832L10.6204 17.3613C10.6464 17.3833 10.6735 17.4039 10.7018 17.4229C10.9551 17.5919 11.2478 17.6923 11.5515 17.7143C11.8552 17.7362 12.1593 17.6791 12.4343 17.5483C14.4946 16.5528 16.5484 14.5145 17.545 12.4762C17.677 12.2032 17.7362 11.9008 17.7169 11.5982C17.6976 11.2957 17.6005 11.0032 17.435 10.7492C17.4163 10.7193 17.3954 10.691 17.3723 10.6645L15.0799 7.94634L17.3899 2.77629C17.3903 2.77191 17.3903 2.76748 17.3899 2.76309C18.4566 2.90224 19.4361 3.42548 20.1448 4.23482C20.8535 5.04415 21.2428 6.08407 21.24 7.15984C21.2359 10.8929 19.7511 14.4718 17.1115 17.1115C14.4718 19.7511 10.8928 21.2359 7.15972 21.24C6.08461 21.2437 5.04495 20.8557 4.23515 20.1485C3.42533 19.4413 2.90081 18.4634 2.75964 17.3976V17.3987Z" fill="currentColor" />
+          </svg>
+        copyrightText: '© 2026. DUBAI RESIDENTIAL.'
+        downloadAppText: 'Download the DUBAI RESIDENTIAL LIFE APP TODAY'
+        navLinks:
+          - fields:
+              link:
+                {
+                  href: 'http://www.dubairesidential.ae/',
+                  text: 'PROPERTY SEARCH',
+                  target: '_blank',
+                }
+          - fields:
+              link:
+                {
+                  href: 'https://dubairesidential.ae/en/contact-us#contact-layout-page-form',
+                  text: 'CONTACT US',
+                  target: '_blank',
+                }
+
+        legalLinks:
+          - fields:
+              link: { href: '/privacy-notice', text: 'PRIVACY NOTICE', target: '_self' }
+          - fields:
+              link: { href: '/cookie-notice', text: 'COOKIE NOTICE', target: '_self' }
+          - fields:
+              link: { href: '/terms-and-conditions', text: 'TERMS AND CONDITIONS', target: '_self' }
+
+        socialLinks:
+          - fields:
+              link:
+                {
+                  href: 'https://www.youtube.com/@Dubai.Residential',
+                  text: 'Youtube',
+                  target: '_blank',
+                }
+              icon: |
+                <svg width="20" height="20" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5968 5.44802C21.544 5.69497 22.2883 6.41992 22.5418 7.34243H22.54C23 9.01282 23 12.5 23 12.5C23 12.5 23 15.9872 22.54 17.6576C22.2865 18.5801 21.5421 19.305 20.595 19.552C18.88 20 12 20 12 20C12 20 5.12002 20 3.405 19.552C2.45785 19.305 1.71353 18.5801 1.45999 17.6576C1 15.9872 1 12.5 1 12.5C1 12.5 1 9.01282 1.45999 7.34243C1.71353 6.41992 2.45785 5.69497 3.405 5.44802C5.12002 5 12 5 12 5C12 5 18.88 5 20.5968 5.44802ZM15.517 12.5L9.79964 15.7138V9.28622L15.517 12.5Z" fill="currentColor"/>
+                </svg>
+          - fields:
+              link:
+                {
+                  href: 'https://www.facebook.com/DubaiAMLife/',
+                  text: 'Facebook',
+                  target: '_blank',
+                }
+              icon: |
+                <svg width="20" height="20" viewBox="0 0 24 24">
+                  <path d="M13.125 23V13.1602H16.1667L16.6667 9.25H13.125V6.54297C13.125 5.91276 13.2361 5.45443 13.4583 5.16797C13.7361 4.82422 14.25 4.65234 15 4.65234H17V1.17188C16.25 1.05729 15.2778 1 14.0833 1C12.6111 1 11.4306 1.45117 10.5417 2.35352C9.65278 3.25586 9.20833 4.52344 9.20833 6.15625V9.25H6V13.1602H9.20833V23H13.125Z" fill="currentColor"/>
+                </svg>
+          - fields:
+              link:
+                {
+                  href: 'https://www.linkedin.com/company/dubairesidential/',
+                  text: 'LinkedIn',
+                  target: '_blank',
+                }
+              icon: |
+                <svg width="20" height="20" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.41069 6.82139C5.06545 6.82139 5.63092 6.5833 6.10711 6.10711C6.5833 5.63092 6.82139 5.06545 6.82139 4.41069C6.82139 3.75594 6.5833 3.19047 6.10711 2.71428C5.63092 2.23809 5.06545 2 4.41069 2C3.75594 2 3.19047 2.23809 2.71428 2.71428C2.23809 3.19047 2 3.75594 2 4.41069C2 5.06545 2.23809 5.63092 2.71428 6.10711C3.19047 6.5833 3.75594 6.82139 4.41069 6.82139ZM13.2062 22V15.3929C13.2062 14.3512 13.355 13.5625 13.6526 13.0268C14.0395 12.3125 14.7092 11.9554 15.6615 11.9554C16.6139 11.9554 17.2538 12.3572 17.5812 13.1607C17.7597 13.6369 17.849 14.4107 17.849 15.4821V22H22.0008V14.6786C22.0008 12.625 21.7031 11.1072 21.1079 10.125C20.3341 8.90482 18.98 8.29471 17.0454 8.29471C16.0931 8.29471 15.2597 8.5328 14.5455 9.00899C13.8907 9.39589 13.4145 9.88695 13.1169 10.4822H13.0723V8.65185H9.09908V22H13.2062ZM6.46285 8.65185V22H2.3111V8.65185H6.46285Z" fill="currentColor"/>
+                </svg>
+          - fields:
+              link:
+                {
+                  href: 'https://www.instagram.com/dubairesidential',
+                  text: 'Instagram',
+                  target: '_blank',
+                }
+              icon: |
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.44432 1.07693C6.27391 1.13215 5.47464 1.31893 4.77592 1.59349C4.05277 1.87531 3.43984 2.25349 2.83 2.86553C2.22015 3.47757 1.84461 4.09093 1.56476 4.81517C1.29394 5.51543 1.11046 6.31535 1.05876 7.48641C1.00706 8.65747 0.995618 9.03389 1.00134 12.0211C1.00706 15.0082 1.02026 15.3827 1.07702 16.5561C1.1329 17.7263 1.31902 18.5254 1.59358 19.2243C1.87585 19.9474 2.25359 20.5601 2.86586 21.1702C3.47812 21.7803 4.09105 22.1549 4.81706 22.4352C5.51666 22.7056 6.31681 22.8899 7.48766 22.9412C8.65852 22.9925 9.03538 23.0043 12.0217 22.9986C15.008 22.9929 15.384 22.9797 16.5573 22.924C17.7305 22.8684 18.5254 22.6809 19.2246 22.4077C19.9477 22.1248 20.5609 21.7477 21.1705 21.1352C21.7801 20.5227 22.1554 19.9089 22.4351 19.1843C22.7061 18.4847 22.8902 17.6845 22.9411 16.5146C22.9923 15.3404 23.0044 14.9655 22.9987 11.9788C22.993 8.99209 22.9796 8.61765 22.9239 7.44461C22.8682 6.27157 22.6819 5.47495 22.4076 4.77557C22.1248 4.05243 21.7475 3.44017 21.1355 2.82967C20.5235 2.21917 19.9092 1.84407 19.1847 1.56511C18.4847 1.29429 17.685 1.10971 16.5141 1.05911C15.3433 1.00851 14.9664 0.995531 11.979 1.00125C8.9916 1.00697 8.6176 1.01973 7.44432 1.07693ZM7.5728 20.9623C6.50029 20.9157 5.91795 20.7375 5.52986 20.5883C5.01594 20.3903 4.64985 20.1509 4.26309 19.7679C3.87633 19.3849 3.63872 19.0175 3.43808 18.5047C3.28738 18.1166 3.10588 17.5349 3.05572 16.4624C3.00116 15.3032 2.98972 14.9552 2.98334 12.0184C2.97696 9.08163 2.98818 8.73403 3.039 7.57441C3.08476 6.50279 3.26406 5.91979 3.413 5.53193C3.611 5.01735 3.84949 4.65193 4.23339 4.26539C4.61729 3.87885 4.9836 3.64081 5.49686 3.44017C5.88451 3.28881 6.46619 3.10885 7.53826 3.05781C8.69834 3.00281 9.04594 2.99181 11.9823 2.98543C14.9187 2.97905 15.2672 2.99005 16.4277 3.04109C17.4993 3.08773 18.0825 3.26527 18.47 3.41509C18.9841 3.61309 19.35 3.85091 19.7365 4.23547C20.1231 4.62003 20.3613 4.98501 20.562 5.49937C20.7135 5.88591 20.8935 6.46737 20.9441 7.54009C20.9993 8.70015 21.0119 9.04797 21.0171 11.9841C21.0224 14.9202 21.0121 15.2689 20.9613 16.4281C20.9144 17.5006 20.7366 18.0832 20.5873 18.4717C20.3893 18.9854 20.1506 19.3517 19.7664 19.738C19.3823 20.1243 19.0164 20.3624 18.503 20.563C18.1157 20.7141 17.5334 20.8945 16.4622 20.9456C15.3021 21.0001 14.9545 21.0116 12.0171 21.018C9.0796 21.0243 8.7331 21.0125 7.57302 20.9623M16.5403 6.12087C16.5416 6.84995 17.1334 7.43999 17.8625 7.43867C18.5916 7.43735 19.1817 6.84555 19.1803 6.11647C19.179 5.38739 18.5872 4.79735 17.8581 4.79867C17.8581 4.79867 17.8579 4.79867 17.8577 4.79867C17.1288 4.80021 16.539 5.39201 16.5403 6.12087ZM6.35201 12.0109C6.35817 15.1305 8.89172 17.6537 12.0107 17.6478C15.1297 17.6418 17.6546 15.1085 17.6487 11.9889C17.6427 8.86933 15.1085 6.34549 11.9891 6.35165C8.86972 6.35781 6.34607 8.89177 6.35201 12.0109ZM8.33335 12.007C8.32939 9.98187 9.96775 8.33693 11.9929 8.33297C14.018 8.32901 15.6629 9.96735 15.6669 11.9925C15.6709 14.0176 14.0325 15.6625 12.0074 15.6665C9.98249 15.6706 8.33753 14.0327 8.33335 12.0079V12.007Z" fill="currentColor"/>
+                </svg>

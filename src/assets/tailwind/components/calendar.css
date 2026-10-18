@@ -1,0 +1,50 @@
+.rdp-month_grid {
+  @apply w-full table-fixed;
+}
+
+.rdp-weekdays {
+  @apply mb-4;
+}
+
+.rdp-week {
+  @apply mb-1;
+}
+
+.rdp-day,
+.rdp-day_button {
+  @apply w-9! h-9! md:w-12.5! md:h-12.5!;
+}
+
+.rdp-selected {
+  @apply bg-lilac-500 rounded-xs border-none inline;
+}
+
+.rdp-selected .rdp-day_button {
+  @apply bg-lilac-500 border-none! rounded-sm text-white-pure;
+}
+
+.rdp-day.rdp-disabled {
+  @apply text-silver-chalice-700;
+}
+
+.rdp-today,
+.rdp-today.rdp-disabled {
+  @apply text-navy-500! opacity-100!;
+}
+
+.rdp-today .rdp-day_button::after {
+  content: '';
+  @apply text-navy-500! relative block mx-auto w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-lilac-400;
+}
+
+.rdp-today .rdp-day_button {
+  @apply flex flex-col relative top-1;
+}
+
+.rdp-month_caption {
+  @apply flex items-center mb-4 text-[16px]! md:text-[20px]!;
+}
+
+.rdp-chevron {
+  @apply fill-lilac-500!;
+}

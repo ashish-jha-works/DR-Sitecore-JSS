@@ -1,0 +1,1261 @@
+id: privacy-notice
+routeFields:
+  pageTitle: Privacy Notice
+fields:
+  pageTitle: Dubai Properties - Privacy Notice
+placeholders:
+  jss-main:
+  - componentName: Header
+    fields:
+      logoLink:
+        href: /
+        text: Home
+        target: _self
+        title: Go to Home
+      logoImage:
+        src: /data/media/img/svg/dubai-residential-logo-white.svg
+        alt: Dubai Residential Logo
+        width: 90
+        height: 56
+  - componentName: PageBanner
+    fields:
+      heading: Privacy notice
+      bannerImage:
+        src: /data/media/img/service-requests-banner.png
+        alt: Privacy Notice Banner
+        width: 1920
+        height: 300
+  - componentName: LegalContentPage
+    fields:
+      content: '<style>
+
+.LegalContentPage {
+  background-color: #ffffff;
+  padding-bottom: 3rem;
+}
+@media (min-width: 48rem) {
+  .LegalContentPage {
+    padding-bottom: 4rem;
+  }
+}
+.LegalContentPage__inner {
+  max-width: 60.625rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 0.75rem;
+}
+@media (min-width: 48rem) {
+  .LegalContentPage__inner {
+    padding: 3rem 0.75rem;
+  }
+}
+.LegalContentPage__accordion {
+  margin-top: 1.5rem;
+  border-bottom: 1px solid #c4caff;
+  padding: 1rem 0;
+  scroll-margin-top: 6rem;
+}
+@media (min-width: 48rem) {
+  .LegalContentPage__accordion {
+    margin-top: 1.25rem;
+  }
+}
+.LegalContentPage__accordion-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 12px;
+  cursor: pointer;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.57;
+  color: #1a2039;
+}
+.LegalContentPage__accordion-summary > span:first-child {
+  flex: 1;
+  min-width: 0;
+}
+.LegalContentPage__accordion-summary::-webkit-details-marker {
+  display: none;
+}
+.LegalContentPage__accordion-summary::marker {
+  content: '''';
+}
+.LegalContentPage__accordion-summary::after {
+  content: '''';
+  flex-shrink: 0;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-right: 2px solid #9ca7ff;
+  border-bottom: 2px solid #9ca7ff;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+  margin-top: -0.15rem;
+}
+.LegalContentPage__accordion[open] > .LegalContentPage__accordion-summary::after {
+  transform: rotate(225deg);
+  margin-top: 0.15rem;
+}
+.LegalContentPage__accordion-body {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.57;
+  color: #1a2039;
+}
+.LegalContentPage h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #1a2039;
+  margin: 0 0 1rem;
+}
+.LegalContentPage p {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.57;
+  color: #1a2039;
+}
+.LegalContentPage p:last-child {
+  margin-bottom: 0;
+}
+.LegalContentPage a {
+  color: #426895;
+  text-decoration: underline;
+}
+.LegalContentPage a:hover {
+  color: #9ca7ff;
+}
+.LegalContentPage ul {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  list-style: disc outside;
+}
+.LegalContentPage ul > li {
+  display: list-item;
+}
+.LegalContentPage ol {
+  padding-left: 1.25rem;
+  list-style-type: decimal;
+}
+.LegalContentPage ol li > p {
+  margin: 0;
+}
+.LegalContentPage ol ul {
+  list-style-type: disc;
+}
+.LegalContentPage li {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.57;
+  color: #1a2039;
+}
+.LegalContentPage strong {
+  font-weight: 500;
+}
+.LegalContentPage__table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 0 0 1rem;
+}
+.LegalContentPage__table-wrap--cookie-list {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.LegalContentPage__table--cookie-list {
+  max-width: 100%;
+  table-layout: fixed;
+}
+.LegalContentPage__table--cookie-list th,
+.LegalContentPage__table--cookie-list td {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+@media (max-width: 47.99rem) {
+  .LegalContentPage__table--cookie-list {
+    font-size: 0.8125rem;
+  }
+  .LegalContentPage__table--cookie-list th,
+  .LegalContentPage__table--cookie-list td {
+    padding: 0.375rem 0.5rem;
+  }
+}
+.LegalContentPage__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #1a2039;
+}
+.LegalContentPage__table th,
+.LegalContentPage__table td {
+  padding: 0.5rem 0.9375rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table thead th {
+  background-color: #ebedff;
+  color: #1a2039;
+  font-weight: 500;
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table-section td {
+  background-color: #ffffff;
+  font-weight: 500;
+  text-align: start;
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table-detail td {
+  background-color: #ffffff;
+  font-weight: 300;
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table-detail p {
+  margin: 0 0 0.5rem;
+}
+.LegalContentPage__table-detail p:last-child {
+  margin-bottom: 0;
+}
+.LegalContentPage__table--cookie-list tbody tr:not(.LegalContentPage__table-detail) td {
+  border-bottom: 1px solid #c4caff;
+}
+.LegalContentPage__table--cookie-list .LegalContentPage__table-detail td {
+  border: none;
+}
+.LegalContentPage__table--cookie-list thead th {
+  border-bottom: 1px solid #c4caff;
+}
+</style>
+
+<details id="introduction" class="LegalContentPage__accordion open">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Introduction</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>We are committed to protecting and respecting your privacy. This Privacy Notice (the &ldquo;Notice&rdquo;) governs the collection and use of personal data by Dubai Residential LLC. It explains how and why we use your personal data and applies to the personal data that you provide us directly, or which we may obtain from other sources. We may use your personal data for any of the purposes described in this Notice, or as otherwise stated at the point of collection.</p>
+
+        <p>References to &ldquo;our&rdquo;, &ldquo;us&rdquo; or &ldquo;we&rdquo; within this Notice are to Al Sa&rsquo;ada Street, Business Bay, PO Box 500272, Dubai, United Arab Emirates, <a href="mailto:privacyoffice@dham.ae">privacyoffice@dham.ae</a>.</p>
+
+        </div>
+
+        </details>
+
+        <details id="who-we-are" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Who we are</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>We are the data controller of your personal data. We decide how and why your personal data is processed, either alone or jointly with others.</p>
+
+        <p>If you visit our facilities and services, the entity which manages the relevant venue, facility or service will also be a data controller in respect of your personal information. You can access a &lsquo;Data Controller List&rsquo; here, which sets out all of our different entities and their contact details. This will enable you to identify the relevant entity that holds, processes, and secures your personal data and is the data controller in relation to your personal data.</p>
+
+        </div>
+
+        </details>
+
+        <details id="information-covered-by-this-notice" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Information covered by this Notice</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>In this Notice we refer to &ldquo;processing&rdquo; your &ldquo;personal data&rdquo;.</p>
+
+        <p>Processing is taken to mean anything that is done to or with personal data (including simply collecting, storing or deleting that data).</p>
+
+        <p>Personal data is any information relating to an identified or identifiable living person (for example, name, address, telephone number). When &ldquo;you&rdquo; or &ldquo;your&rdquo; are used in this Notice, we are referring to the relevant individual who is the subject of the personal data. Relevant individuals may include Primary Customers, Secondary Customers, and Children (as defined below).</p>
+
+        <p><strong>Primary Customer:</strong> The individual or entity directly engaging with our services, facilities or products.</p>
+
+        <p><strong>Secondary Customer:</strong> The individuals associated with the Primary Customer who benefit from or are involved in the service.</p>
+
+        <p><strong>Sensitive Data:</strong> Includes data that reveals racial or ethnic origin, political opinions, religious and philosophical beliefs, trade union membership, genetic data, biometric data for uniquely identifying a natural person, and data concerning health.</p>
+
+        </div>
+
+        </details>
+
+        <details id="our-use-of-cookies" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Our use of cookies</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>Where we may use cookies, you can also control the data stored by cookies and withdraw consent to cookies by using the browser-based cookie controls described in our Cookie Policy available on our websites.</p>
+
+        </div>
+
+        </details>
+
+        <details id="what-personal-data-do-we-collect-from-you-and-how-do-we-use-it" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>What personal data do we collect from you and how do we use it?</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>To provide services to you, we may process different categories of personal data whilst adhering to the data minimization and purpose limitation principles in accordance with the applicable data protection law. As described below:</p>
+
+        <p><strong>Contact Details:</strong> Includes, but is not limited to, home address, home/personal mobile number, personal email address, and emergency contact number.</p>
+
+        <p><strong>Identification Data:</strong> Includes, but is not limited to, name, title, company, individual physical description, photo, citizenship, nationality, passport data, visa information, driver&rsquo;s license information, resident country&rsquo;s ID, marriage certificate, birth certificate, education certificates, national/social insurance number (if applicable), health insurance, government retirement plan information, and tax reference/ID (if applicable).</p>
+
+        <p><strong>Sensitive Data:</strong> Includes data that reveals racial or ethnic origin, political opinions, religious and philosophical beliefs, trade union membership, genetic data, biometric data for uniquely identifying a natural person, and data concerning health.</p>
+
+        <p><strong>Web Data:</strong> Includes, but is not limited to, cookies, user activity logs, IP address, social media profile, and website visitor interaction data.</p>
+
+        <p><strong>Financial Data:</strong> Includes, but is not limited to, card details and bank details.</p>
+
+        <p><strong>Other Personal Data:</strong> Includes, but is not limited to, date of birth, age, gender, voice recording, religion, languages spoken, place of birth, marital status, country of residence, family, signature and driving license number.</p>
+
+        <p>The reason these categories of personal data are processed, along with our lawful basis for doing so, are set out in the table below:</p>
+
+
+        <p>Personal Data Directly Obtained from You</p>
+
+        <div class="LegalContentPage__table-wrap">
+
+        <table class="LegalContentPage__table">
+
+        <thead>
+
+        <tr>
+
+        <th>Description of Processing</th>
+
+        <th>Purpose for Processing</th>
+
+        <th>Category of Personal Data</th>
+
+        <th>Lawful Basis</th>
+
+        <th>Storage Period</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr class="LegalContentPage__table-section">
+
+        <td colspan="5"><strong>Operations</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>We manage your personal data related to customer management and vendor evaluation for events and partnerships.</td>
+
+        <td>Operations, Business Development</td>
+
+        <td>Identification Data, Contact Details, Financial Data, Other Personal Data</td>
+
+        <td>We process personal data in line with our contractual obligations. Where applicable, we may also rely upon your consent to do so.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for retail operations including management of retail assets, promotional activities, security, sub-contracting, retail leasing and sponsorship.</td>
+
+        <td>Operations, Advertising / Marketing Services</td>
+
+        <td>Identification Data, Contact Details, Financial Data, Other Personal Data</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for customer services and partner relationship management.</td>
+
+        <td>Customer Service</td>
+
+        <td>Identification Data, Contact Details, Financial Data, Other Personal Data</td>
+
+        <td>We process personal data in line with our contractual obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data related to issuance and renewal of leases.</td>
+
+        <td>Tenant Management</td>
+
+        <td>Identification Data, Contact Details, Financial Data</td>
+
+        <td>We process personal data in line with our contractual obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data related to master planning of land assets and project management.</td>
+
+        <td>Governance</td>
+
+        <td>Identification Data, Contact Details</td>
+
+        <td>We process personal data in line with our contractual obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for dispute management and relevant escalation where necessary.</td>
+
+        <td>Litigation &amp; Disputes</td>
+
+        <td>Identification Data, Contact Details, Other Personal Data</td>
+
+        <td>We process personal data in line with our contractual obligations. Where applicable, we may also rely upon our legal obligation to do so.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr class="LegalContentPage__table-section">
+
+        <td colspan="5"><strong>Working with Third Parties</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for all government and visa related services.</td>
+
+        <td>Supporting Service</td>
+
+        <td>Identification Data, Contact Details, Financial Data, Other Personal Data</td>
+
+        <td>We process personal data in line with our contractual obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for all company establishment related services.</td>
+
+        <td>Supporting Service</td>
+
+        <td>Identification Data, Contact Details, Financial Data</td>
+
+        <td>We process personal data in line with our contractual obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data to manage client relations and facilitate set up of relevant business licenses.</td>
+
+        <td>Customer Service</td>
+
+        <td>Identification Data, Contact Details, Financial Data</td>
+
+        <td>We process personal data in line with our contractual obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for all government and visa related services.</td>
+
+        <td>Supporting Service</td>
+
+        <td>Identification Data, Contact Details, Financial Data, Other Personal Data</td>
+
+        <td>We process personal data in line with our contractual obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr class="LegalContentPage__table-section">
+
+        <td colspan="5"><strong>External Business Operations</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for marketing purposes (e.g. personalising offers and for lead generation activities), as well as for analytics purposes.</td>
+
+        <td>Marketing and Analytics services</td>
+
+        <td>Identification Data, Contact Details, Web Data, Other Personal Data</td>
+
+        <td>As appropriate we will process your personal data in reliance upon consent provided, or for our legitimate interest.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data when managing and fulfilling bookings, reservations and requests.</td>
+
+        <td>Customer service and processing/fulfilling orders and transactions</td>
+
+        <td>Contact Details, Identification Data, Other Personal Data, Web Data, Travel / Stay Information and Financial Data</td>
+
+        <td>Contract and Legitimate Interest</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data during your visit (e.g. in order to provide Wi-Fi to you).</td>
+
+        <td>Customer Service</td>
+
+        <td>Contact Details, Identification Data, Other Personal Data, Web Data and Travel / Stay Information</td>
+
+        <td>Consent and Legitimate Interest</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr class="LegalContentPage__table-section">
+
+        <td colspan="5"><strong>Internal Business Operations</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for service and quality monitoring purposes.</td>
+
+        <td>Customer service</td>
+
+        <td>Contact Details, Identification Data, Other Personal Data and Financial Data</td>
+
+        <td>Legitimate Interest</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data in order to conduct surveys, obtain feedback and manage and progress complaints as necessary.</td>
+
+        <td>Customer Service</td>
+
+        <td>Contact Details, Identification Data, Other Personal Data, Web Data, Travel / Stay Information and Financial Data</td>
+
+        <td>Legitimate Interest</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for procurement purposes, such as vendor management and contract management.</td>
+
+        <td>Supporting Services</td>
+
+        <td>Identification Data, Contact Details, Financial Data</td>
+
+        <td>We process personal data in line with our contractual obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for invoicing and payment purposes.</td>
+
+        <td>Account Management</td>
+
+        <td>Identification data, Contact details, Financial data</td>
+
+        <td>We process personal data in line with our legal obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for management and audit of our business operations including accounting.</td>
+
+        <td>Financial Management</td>
+
+        <td>Identification data, Contact details, Financial data</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data to comply with legal requirements and exercise or defend legal claims.</td>
+
+        <td>Litigation &amp; Disputes</td>
+
+        <td>Identification data, Contact details</td>
+
+        <td>We process personal data in line with our legal obligations.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for security purposes and to ensure secure backup and archival of IT Systems.</td>
+
+        <td>Security Purposes</td>
+
+        <td>Identification data, Contact details</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for application management and support purposes, and to respond to customer requests.</td>
+
+        <td>Security Purposes</td>
+
+        <td>Identification Data, Contact Details, Financial Data, Web Data, Other Personal Data</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data in relation to the usage of Wi-Fi services provided at our locations.</td>
+
+        <td>Security Purposes</td>
+
+        <td>Identification Data, Contact Details</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for management of call center queries and related activities.</td>
+
+        <td>Customer Service</td>
+
+        <td>Identification Data, Contact Details, Other Personal Data</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for identifying, investigating, and mitigating incidents, such as if a personal data breach occurred.</td>
+
+        <td>Governance, Security Purposes</td>
+
+        <td>Identification data, Contact details, Web data</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for whistleblowing purposes.</td>
+
+        <td>Governance</td>
+
+        <td>Identification data, Contact details</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process personal data for disaster recovery purposes.</td>
+
+        <td>Governance</td>
+
+        <td>Identification data, Contact details</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for internal audit and risk management purposes.</td>
+
+        <td>Audit Purposes</td>
+
+        <td>Identification data, Contact details</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data to facilitate application integration within our systems.</td>
+
+        <td>Security Purposes</td>
+
+        <td>Identification Data, Contact Details, Financial Data, Web Data, Other Personal Data</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data in relation to incidents and accidents.</td>
+
+        <td>Health and Safety</td>
+
+        <td>Identification data, Contact details, Sensitive Data</td>
+
+        <td>As appropriate, we will process your personal data in reliance upon explicit consent provided by you or for vital interests.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data in order to provide medical care where required.</td>
+
+        <td>Health and Safety</td>
+
+        <td>Contact Details, Identification Data, Other Personal Data, Web Data and Travel / Stay Information</td>
+
+        <td>Consent, Vital Interest and Legal obligation</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data in order to improve the services we provide.</td>
+
+        <td>Customer Service</td>
+
+        <td>Contact Details, Identification Data, Other Personal Data, Web Data, Travel / Stay Information and Financial Data</td>
+
+        <td>Legitimate Interest</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for sales operations including building relationships through leads and on boarding new customers.</td>
+
+        <td>Business Development</td>
+
+        <td>Identification Data, Contact Details, Financial Data</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data for market research purposes.</td>
+
+        <td>Strategy</td>
+
+        <td>Identification Data, Contact Details</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>We process your personal data in line with our corporate social responsibility commitments.</td>
+
+        <td>Corporate Social Responsibility</td>
+
+        <td>Identification Data, Contact Details</td>
+
+        <td>We rely upon legitimate interest to process your personal data.</td>
+
+        <td>7 years from the date of last transaction with the customer. For sensitive data, 2 years from the data of last transaction with the customer.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        </div>
+
+        <p><strong>CCTV:</strong> We operate CCTV systems across our premises to maintain the safety and security of our customers, employees, and property. The use of CCTV is based on our legitimate interest in preventing and addressing security incidents. Any personal data captured through CCTV is processed in accordance with applicable data protection laws and retained only for as long as necessary to fulfil these purposes. Signage indicating CCTV operation is displayed where required by law.</p>
+
+        </div>
+
+        </details>
+
+        <details id="personal-data-indirectly-obtained-from-others" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Personal Data Indirectly Obtained from Others</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>We may also receive some information about you from third parties. These are further detailed below:</p>
+
+        <p><strong>Medical Service Providers:</strong> Where necessary, we obtain your personal data from medical service providers when accidents and incidents occur, and to ensure the provision of appropriate medical care when required.</p>
+
+        <p><strong>Financial Service Providers:</strong> Where necessary, we obtain your personal data from financial service providers to verify membership information and to facilitate the performance of contracts or delivery of services.</p>
+
+        <p><strong>Social Media Platforms:</strong> Where necessary, we obtain your personal data from social media platforms for analytics purposes, to manage and progress complaints, for marketing purposes, to improve our services and to carry out surveys.</p>
+
+        <p>To the extent necessary, we will also receive your personal data from other entities within the Dubai Residential LLC group of companies, including our subsidiaries and holding companies.</p>
+
+        </div>
+
+        </details>
+
+        <details id="legitimate-interest" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Legitimate Interest</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>Where we rely upon legitimate interest as a lawful basis for processing, we assess and balance our interest, or those of relevant third parties, against your rights and freedoms to ensure they are not adversely affected. Legitimate Interest is where your personal data is processed for either our own interests or the interests of third parties. This can include commercial interests, individual interests, or broader societal benefits.</p>
+
+        </div>
+
+        </details>
+
+        <details id="how-long-do-we-keep-your-personal-data" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>How long do we keep your personal data?</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>Your personal data will not be kept longer than necessary to meet the purposes detailed above. The criteria that we use to determine how long we will keep your personal data includes the period of time during which we have an ongoing relationship with you, and whether we have a legal obligation to store it (for example, for accounting purposes or for litigation, or regulatory investigations purposes), and our operational requirements. For details on storage periods, please refer to the section titled &ldquo;What personal data do we collect from you and how do we use it?&rdquo; earlier in this Notice.</p>
+
+        <p>When your personal data is no longer required for the purposes described, we will securely remove it from our systems and records and/or take steps to properly anonymise it so that you can no longer be identified. However, we may retain your information to comply with legal or regulatory obligations to which we are subject.</p>
+
+        </div>
+
+        </details>
+
+        <details id="who-do-we-share-your-personal-data-with" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Who do we share your personal data with?</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>Where necessary to fulfil the purposes described in this Notice, we shall disclose your personal data to certain third-parties, vendors and service providers or affiliated employees, contractors and entities as described below. To the extent necessary, and where we have a lawful basis to do so, we will also share your personal data with other entities within Dubai Residential LLC group including our subsidiaries and holding companies. Where we share personal data, we do so with the following parties for the purposes set out below.</p>
+
+        <div class="LegalContentPage__table-wrap">
+
+        <table class="LegalContentPage__table">
+
+        <thead>
+
+        <tr>
+
+        <th>Category of Third-Party</th>
+
+        <th>Purpose for Disclosure</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Legal and Professional Advisers</td>
+
+        <td>Audits, Invoicing, Legal Requirements, Transaction processing, Accident and Incidents, comply with legal requirements and exercise or defend legal claims, Competition and events and IT security.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Health Providers</td>
+
+        <td>Accident and Incidents, comply with legal requirements and exercise or defend legal claims and Medical care</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Finance, Insurance and Credit Providers</td>
+
+        <td>Invoicing, Payment Processing, Insurance, Valuation</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Government Bodies, Regulators</td>
+
+        <td>Audits, Customer Queries, Invoicing, Legal Requirements, Improving our Service, Progress the Transaction</td>
+
+        </tr>
+
+        <tr>
+
+        <td>IT, Digital, Technology and Telecoms</td>
+
+        <td>Audits, Customer Queries, Application Security and Support, Improving our Service, Analytics, Marketing and Memberships</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Marketing and Research Services</td>
+
+        <td>Providing services and Marketing</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Education and Childcare Providers</td>
+
+        <td>Providing services and IT security, Education Providers and Improving our Service</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Membership Associations</td>
+
+        <td>IT security, Marketing and Memberships</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        </div>
+
+        </div>
+
+        </details>
+
+        <details id="profiling" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Profiling</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>Where we have a lawful basis to do so, we will use your personal data to evaluate certain personal aspects about you, such as to analyse or predict aspects concerning your economic situation, personal preferences, interests, reliability, behaviour, location, or movements. This is known as &ldquo;Profiling&rdquo;. We undertake Profiling, which can involve the use of artificial intelligence, to tailor our services and marketing efforts, or to improve our offerings. By using Profiling, you or individuals with similar profile characteristics as you, may receive a more personalised experience with us or offers from us. You have the right to object to Profiling where we have used it to conduct direct marketing or where it is based on our legitimate interests. Please see section on &ldquo;Your rights&rdquo; for further information.</p>
+
+        </div>
+
+        </details>
+
+        <details id="where-we-store-transfer-your-personal-data" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Where we store/transfer your personal data?</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>When processing your personal data, we may transfer this to third parties based in other countries, to the extent necessary to fulfil the purposes described in this Notice. Your personal data may be transferred within the Dubai Residential LLC group including our subsidiaries and holding companies. Such transfers shall always be done in compliance with relevant data protection laws. Most personal data processed by us is stored in the United Arab Emirates, where the appropriate data protection measures are in place.</p>
+
+        <p>Further information about transfers can be obtained by contacting us using the following email address <a href="mailto:privacyoffice@dham.ae">privacyoffice@dham.ae</a>.</p>
+
+        <p>To the extent required, we will also transfer your personal data to third parties in connection with a reorganization, restructuring, merger, acquisition, or transfer of assets, provided that the receiving party agrees to treat your personal data in a manner consistent with applicable laws and requirements.</p>
+
+        </div>
+
+        </details>
+
+        <details id="security-of-your-personal-data" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Security of your personal data</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>We have implemented technology and operational security measures in order to protect personal data from loss, misuse, alteration, or destruction. Only authorised persons are provided access to personal data; such individuals have agreed to maintain the confidentiality of this personal data.</p>
+
+        </div>
+
+        </details>
+
+        <details id="your-rights" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Your rights</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>You may have certain rights regarding your personal data. However, these rights can vary depending upon the country you are located. Such country&rsquo;s law will determine which rights apply and in what instances.</p>
+
+        <p><strong>Right to withdraw consent</strong></p>
+
+        <p>Where you have provided your consent to us, you will always have the right to withdraw this at any time. You can do this either by following the information given at the time you provided your consent, or by contacting us using the following email address <a href="mailto:privacyoffice@dham.ae">privacyoffice@dham.ae</a>. The withdrawal of consent will not affect any processing that was based on consent before its withdrawal.</p>
+
+        <p><strong>Right to request correction of your personal data</strong></p>
+
+        <p>You will always have the right to request that we correct and update any personal data that we process about you that is inaccurate or incomplete. You can do this by contacting us at <a href="mailto:privacyoffice@dham.ae">privacyoffice@dham.ae</a>.</p>
+
+        <p><strong>Additional Data Protection Rights</strong></p>
+
+        <p>Certain Data Protection Regulation also provide you with additional rights which may allow you to:</p>
+
+        <ul>
+
+        <li>upon request, be provided access to, or copies of, your personal data that we process;</li>
+
+        <li>upon request, restrict the processing of your personal data;</li>
+
+        <li>upon request, delete your personal data which we process;</li>
+
+        <li>object to our processing of your personal data; or</li>
+
+        <li>upon request, obtain a copy of your personal data which we process in a commonly used and machine-readable format.</li>
+
+        <li>lodge a complaint with the supervisory authority in your country of residence, place of work or the country in which an alleged infringement of data protection law has occurred</li>
+
+        </ul>
+
+        <p>It is important to understand that these rights are not absolute (e.g. their application may depend upon the lawful basis we rely upon to process your personal data) and that we may require further information from you (e.g. to confirm your identity) to action your request. You can enquire whether these rights apply to you by contacting us using the following email address at <a href="mailto:privacyoffice@dham.ae">privacyoffice@dham.ae</a>.</p>
+
+        </div>
+
+        </details>
+
+        <details id="ai-implications" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>AI Implications</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p><strong>Artificial Intelligence (AI) Systems:</strong> We use AI Systems that process personal data to enable us to improve our services and user experiences. We remain vigilant when using AI to protect personal data, ensuring customer privacy, and preventing unauthorised or fraudulent activity. Our customers and stakeholders shall remain confident that personal data is adequately protected with us, especially in cases where AI is used to deliver the product or service, as this may infer heightened protection where AI is deployed.</p>
+
+        <p><strong>How we use AI Systems</strong></p>
+
+        <p>This notice gives you information on how we protect your personal data in our use of the AI System.</p>
+
+        <p>Personal data may be processed within our AI Systems. We remain the data controller for your personal data when it is processed while using our AI Systems. We process personal data in accordance with the relevant data protection laws. In the case where we have engaged a processor, we have mandated contracts that uphold our standards in compliance with the relevant data protection laws.</p>
+
+        <p>We will sometimes process customers&rsquo; personal data when using AI Systems. We have regulated the use of AI internally, weighed the opportunities and risks in advance of our use of AI and ensured appropriate human supervision where important matters are concerned. Where we offer dialogues with an AI, we will make this evident and, if necessary, point out potential errors.</p>
+
+        <p><strong>Personal Data Processed by AI Systems</strong></p>
+
+        <p>We may collect personal data either directly from you, third parties or public sources. We process your personal data using AI Systems to improve the efficiency, quality, and speed of our business processes and for the purpose of providing services. When using AI systems, we may process various types of personal data. For more information, please refer to the section titled &ldquo;What personal data do we collect from you and how do we use it?&rdquo;.</p>
+
+        <p>In limited circumstances, we may process sensitive data through the AI System, but we will ensure that we have the necessary lawful basis in place before doing so. Where we process your existing personal data, we will continue to rely on the appropriate lawful basis for that processing activity. In certain instances, we engage data processors; however, they are unable to access any of your personal data entered in the AI Systems. We have mandated contracts with data processors to ensure that your personal data is protected.</p>
+
+        </div>
+
+        </details>
+
+        <details id="contact-us" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Contact us</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>If you want to exercise any of the rights set out above or have any questions or concerns about how we treat your personal data, please contact us at <a href="mailto:privacyoffice@dham.ae">privacyoffice@dham.ae</a> or by writing to us at: Dubai Residential LLC, Al Sa&rsquo;ada Street, Business Bay, PO Box 500272, Dubai, United Arab Emirates. Please include your reply address when you write to us.</p>
+
+        </div>
+
+        </details>
+
+        <details id="changes-to-this-notice" class="LegalContentPage__accordion">
+
+        <summary class="LegalContentPage__accordion-summary"><span>Changes to this Notice</span>
+
+        </summary>
+
+        <div class="LegalContentPage__accordion-body">
+
+        <p>We keep this Notice under regular review. We reserve the right, at our discretion, to change, modify, add or remove sections of this Notice at any time. You are also encouraged to review this Notice from time to time for updates. We will notify you of any changes (including when they will take effect) if we are required to do so by data protection laws.</p>
+
+        </div>
+
+        </details>
+
+        '
+  jss-footer:
+  - componentName: Footer
+    fields:
+      version: 2
+      logoLink:
+        href: /
+        text: Home
+        target: _self
+        title: Go to Home
+      logoImage:
+        src: /data/media/img/svg/dubai-residential-logo-white.svg
+        alt: Dubai Residential White Logo
+        width: 140
+        height: 87
+      appStoreLink:
+        href: https://apps.apple.com/app-link
+        text: Download on the App Store
+        target: _blank
+        title: Go to App Store
+      appStoreImage:
+        src: /data/media/img/svg/app-store.svg
+        alt: Dubai Residential Logo
+        width: 82
+        height: 50
+      googlePlayLink:
+        href: https://play.google.com/store-link
+        text: Get it on Google Play
+        target: _blank
+        title: Go to Google Play
+      googlePlayImage:
+        src: /data/media/img/svg/play-store.svg
+        alt: Dubai Residential Logo
+        width: 82
+        height: 50
+      customerCareLabel: Customer Care
+      customerCareNumber: 800 9933
+      customerCareIcon: "<svg  width=\"30\" height=\"30\" viewBox=\"0 0 24 24\">\n  <path d=\"M1.01281 17.6187C1.20895 19.1093 1.94098 20.4775 3.07215 21.4677C4.20333 22.458 5.65631 23.0027 7.15972 23C15.8939 23 23 15.8939 23 7.15984C23.0027 5.65644 22.458 4.20347 21.4677 3.0723C20.4774 1.94113 19.1093 1.20912 17.6187 1.01298C17.2418 0.966954 16.8601 1.04407 16.5306 1.2328C16.2011 1.42154 15.9415 1.71178 15.7905 2.06019L13.4672 7.24674V7.25994C13.3516 7.52664 13.3039 7.81782 13.3283 8.10747C13.3526 8.39712 13.4484 8.67623 13.6069 8.91985C13.6267 8.94955 13.6476 8.97705 13.6696 9.00455L15.9599 11.7194C15.136 13.3936 13.3847 15.1294 11.6885 15.9555L9.01105 13.6774C8.98476 13.6553 8.95721 13.6347 8.92855 13.6158C8.68512 13.4534 8.40506 13.3543 8.11369 13.3274C7.82232 13.3006 7.52885 13.3467 7.25982 13.4618L7.24552 13.4684L2.06333 15.7905C1.7143 15.941 1.42335 16.2004 1.23399 16.5299C1.04463 16.8594 0.967039 17.2414 1.01281 17.6187ZM2.75964 17.3987C2.75964 17.3987 2.76734 17.3987 2.77174 17.3987L7.94183 15.0832L10.6204 17.3613C10.6464 17.3833 10.6735 17.4039 10.7018 17.4229C10.9551 17.5919 11.2478 17.6923 11.5515 17.7143C11.8552 17.7362 12.1593 17.6791 12.4343 17.5483C14.4946 16.5528 16.5484 14.5145 17.545 12.4762C17.677 12.2032 17.7362 11.9008 17.7169 11.5982C17.6976 11.2957 17.6005 11.0032 17.435 10.7492C17.4163 10.7193 17.3954 10.691 17.3723 10.6645L15.0799 7.94634L17.3899 2.77629C17.3903 2.77191 17.3903 2.76748 17.3899 2.76309C18.4566 2.90224 19.4361 3.42548 20.1448 4.23482C20.8535 5.04415 21.2428 6.08407 21.24 7.15984C21.2359 10.8929 19.7511 14.4718 17.1115 17.1115C14.4718 19.7511 10.8928 21.2359 7.15972 21.24C6.08461 21.2437 5.04495 20.8557 4.23515 20.1485C3.42533 19.4413 2.90081 18.4634 2.75964 17.3976V17.3987Z\" fill=\"currentColor\" />\n</svg>\n"
+      copyrightText: © 2026. DUBAI RESIDENTIAL.
+      downloadAppText: Download the DUBAI RESIDENTIAL LIFE APP TODAY
+      navLinks:
+      - fields:
+          link:
+            href: http://www.dubairesidential.ae/
+            text: PROPERTY SEARCH
+            target: _blank
+      - fields:
+          link:
+            href: https://dubairesidential.ae/en/contact-us#contact-layout-page-form
+            text: CONTACT US
+            target: _blank
+      legalLinks:
+      - fields:
+          link:
+            href: /privacy-notice
+            text: PRIVACY NOTICE
+            target: _self
+      - fields:
+          link:
+            href: /cookie-notice
+            text: COOKIE NOTICE
+            target: _self
+      - fields:
+          link:
+            href: /terms-and-conditions
+            text: TERMS AND CONDITIONS
+            target: _self
+      socialLinks:
+      - fields:
+          link:
+            href: https://www.youtube.com/@Dubai.Residential
+            text: Youtube
+            target: _blank
+          icon: "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.5968 5.44802C21.544 5.69497 22.2883 6.41992 22.5418 7.34243H22.54C23 9.01282 23 12.5 23 12.5C23 12.5 23 15.9872 22.54 17.6576C22.2865 18.5801 21.5421 19.305 20.595 19.552C18.88 20 12 20 12 20C12 20 5.12002 20 3.405 19.552C2.45785 19.305 1.71353 18.5801 1.45999 17.6576C1 15.9872 1 12.5 1 12.5C1 12.5 1 9.01282 1.45999 7.34243C1.71353 6.41992 2.45785 5.69497 3.405 5.44802C5.12002 5 12 5 12 5C12 5 18.88 5 20.5968 5.44802ZM15.517 12.5L9.79964 15.7138V9.28622L15.517 12.5Z\" fill=\"currentColor\"/>\n</svg>\n"
+      - fields:
+          link:
+            href: https://www.facebook.com/DubaiAMLife/
+            text: Facebook
+            target: _blank
+          icon: "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\">\n  <path d=\"M13.125 23V13.1602H16.1667L16.6667 9.25H13.125V6.54297C13.125 5.91276 13.2361 5.45443 13.4583 5.16797C13.7361 4.82422 14.25 4.65234 15 4.65234H17V1.17188C16.25 1.05729 15.2778 1 14.0833 1C12.6111 1 11.4306 1.45117 10.5417 2.35352C9.65278 3.25586 9.20833 4.52344 9.20833 6.15625V9.25H6V13.1602H9.20833V23H13.125Z\" fill=\"currentColor\"/>\n</svg>\n"
+      - fields:
+          link:
+            href: https://www.linkedin.com/company/dubairesidential/
+            text: LinkedIn
+            target: _blank
+          icon: "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.41069 6.82139C5.06545 6.82139 5.63092 6.5833 6.10711 6.10711C6.5833 5.63092 6.82139 5.06545 6.82139 4.41069C6.82139 3.75594 6.5833 3.19047 6.10711 2.71428C5.63092 2.23809 5.06545 2 4.41069 2C3.75594 2 3.19047 2.23809 2.71428 2.71428C2.23809 3.19047 2 3.75594 2 4.41069C2 5.06545 2.23809 5.63092 2.71428 6.10711C3.19047 6.5833 3.75594 6.82139 4.41069 6.82139ZM13.2062 22V15.3929C13.2062 14.3512 13.355 13.5625 13.6526 13.0268C14.0395 12.3125 14.7092 11.9554 15.6615 11.9554C16.6139 11.9554 17.2538 12.3572 17.5812 13.1607C17.7597 13.6369 17.849 14.4107 17.849 15.4821V22H22.0008V14.6786C22.0008 12.625 21.7031 11.1072 21.1079 10.125C20.3341 8.90482 18.98 8.29471 17.0454 8.29471C16.0931 8.29471 15.2597 8.5328 14.5455 9.00899C13.8907 9.39589 13.4145 9.88695 13.1169 10.4822H13.0723V8.65185H9.09908V22H13.2062ZM6.46285 8.65185V22H2.3111V8.65185H6.46285Z\" fill=\"currentColor\"/>\n</svg>\n"
+      - fields:
+          link:
+            href: https://www.instagram.com/dubairesidential
+            text: Instagram
+            target: _blank
+          icon: "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M7.44432 1.07693C6.27391 1.13215 5.47464 1.31893 4.77592 1.59349C4.05277 1.87531 3.43984 2.25349 2.83 2.86553C2.22015 3.47757 1.84461 4.09093 1.56476 4.81517C1.29394 5.51543 1.11046 6.31535 1.05876 7.48641C1.00706 8.65747 0.995618 9.03389 1.00134 12.0211C1.00706 15.0082 1.02026 15.3827 1.07702 16.5561C1.1329 17.7263 1.31902 18.5254 1.59358 19.2243C1.87585 19.9474 2.25359 20.5601 2.86586 21.1702C3.47812 21.7803 4.09105 22.1549 4.81706 22.4352C5.51666 22.7056 6.31681 22.8899 7.48766 22.9412C8.65852 22.9925 9.03538 23.0043 12.0217 22.9986C15.008 22.9929 15.384 22.9797 16.5573 22.924C17.7305 22.8684 18.5254 22.6809 19.2246 22.4077C19.9477 22.1248 20.5609 21.7477 21.1705 21.1352C21.7801 20.5227 22.1554 19.9089 22.4351 19.1843C22.7061 18.4847 22.8902 17.6845 22.9411 16.5146C22.9923 15.3404 23.0044 14.9655 22.9987 11.9788C22.993 8.99209 22.9796 8.61765 22.9239 7.44461C22.8682 6.27157 22.6819 5.47495 22.4076 4.77557C22.1248 4.05243 21.7475 3.44017 21.1355 2.82967C20.5235 2.21917 19.9092 1.84407 19.1847 1.56511C18.4847 1.29429 17.685 1.10971 16.5141 1.05911C15.3433 1.00851 14.9664 0.995531 11.979 1.00125C8.9916 1.00697 8.6176 1.01973 7.44432 1.07693ZM7.5728 20.9623C6.50029 20.9157 5.91795 20.7375 5.52986 20.5883C5.01594 20.3903 4.64985 20.1509 4.26309 19.7679C3.87633 19.3849 3.63872 19.0175 3.43808 18.5047C3.28738 18.1166 3.10588 17.5349 3.05572 16.4624C3.00116 15.3032 2.98972 14.9552 2.98334 12.0184C2.97696 9.08163 2.98818 8.73403 3.039 7.57441C3.08476 6.50279 3.26406 5.91979 3.413 5.53193C3.611 5.01735 3.84949 4.65193 4.23339 4.26539C4.61729 3.87885 4.9836 3.64081 5.49686 3.44017C5.88451 3.28881 6.46619 3.10885 7.53826 3.05781C8.69834 3.00281 9.04594 2.99181 11.9823 2.98543C14.9187 2.97905 15.2672 2.99005 16.4277 3.04109C17.4993 3.08773 18.0825 3.26527 18.47 3.41509C18.9841 3.61309 19.35 3.85091 19.7365 4.23547C20.1231 4.62003 20.3613 4.98501 20.562 5.49937C20.7135 5.88591 20.8935 6.46737 20.9441 7.54009C20.9993 8.70015 21.0119 9.04797 21.0171 11.9841C21.0224 14.9202 21.0121 15.2689 20.9613 16.4281C20.9144 17.5006 20.7366 18.0832 20.5873 18.4717C20.3893 18.9854 20.1506 19.3517 19.7664 19.738C19.3823 20.1243 19.0164 20.3624 18.503 20.563C18.1157 20.7141 17.5334 20.8945 16.4622 20.9456C15.3021 21.0001 14.9545 21.0116 12.0171 21.018C9.0796 21.0243 8.7331 21.0125 7.57302 20.9623M16.5403 6.12087C16.5416 6.84995 17.1334 7.43999 17.8625 7.43867C18.5916 7.43735 19.1817 6.84555 19.1803 6.11647C19.179 5.38739 18.5872 4.79735 17.8581 4.79867C17.8581 4.79867 17.8579 4.79867 17.8577 4.79867C17.1288 4.80021 16.539 5.39201 16.5403 6.12087ZM6.35201 12.0109C6.35817 15.1305 8.89172 17.6537 12.0107 17.6478C15.1297 17.6418 17.6546 15.1085 17.6487 11.9889C17.6427 8.86933 15.1085 6.34549 11.9891 6.35165C8.86972 6.35781 6.34607 8.89177 6.35201 12.0109ZM8.33335 12.007C8.32939 9.98187 9.96775 8.33693 11.9929 8.33297C14.018 8.32901 15.6629 9.96735 15.6669 11.9925C15.6709 14.0176 14.0325 15.6625 12.0074 15.6665C9.98249 15.6706 8.33753 14.0327 8.33335 12.0079V12.007Z\" fill=\"currentColor\"/>\n</svg>\n"

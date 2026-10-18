@@ -1,0 +1,125 @@
+@layer components {
+  /* ---------- Root ---------- */
+
+  .choices {
+    @apply relative w-full outline-none cursor-pointer;
+  }
+
+  /* ---------- Control ---------- */
+
+  .choices__inner {
+    @apply relative flex h-12 min-h-12 items-center px-4 rounded-xl border text-body-sm font-normal border-lilac-500 bg-white-pure transition-all;
+  }
+
+  /* Hover */
+  .choices:not(.is-disabled, .is-focused, .is-active):has(
+      .choices__list--single .choices__item.choices__placeholder
+    ):not(:has(.choices__list--dropdown.is-active)):hover
+    .choices__inner {
+    @apply glow;
+  }
+
+  /* Focus / Open / Filled */
+  .choices.is-focused .choices__inner,
+  .choices.is-open .choices__inner {
+    @apply border-navy-500;
+  }
+
+  /* Open state shape */
+  .choices.is-open .choices__inner {
+    @apply rounded-b-none border-b-0;
+  }
+
+  /* ---------- Selected value ---------- */
+
+  .choices__list--single {
+    @apply w-full;
+  }
+
+  .choices__list--single .choices__item.choices__placeholder {
+    @apply pr-8 text-silver-chalice-700;
+  }
+
+  .choices__list--single .choices__item.choices__item--selectable:not(.choices__placeholder) {
+    @apply text-navy-500;
+  }
+
+  .choices__inner:not(:has(.choices__item.choices__placeholder)) {
+    @apply border-navy-500;
+  }
+
+  /* ---------- Chevron icon ---------- */
+
+  .choices__list--single .choices__item::after {
+    content: '';
+    @apply absolute right-4 top-1/2 h-5 w-5 -translate-y-1/2 bg-no-repeat bg-contain pointer-events-none bg-lilac-500 transition-transform;
+
+    mask-image: url('/assets/svg/chevron-down.svg');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+  }
+
+  /* Override when a value is selected */
+  .choices__inner:not(:has(.choices__item.choices__placeholder)) .choices__item::after {
+    @apply bg-navy-500;
+  }
+
+  /* Override when the dropdown is open */
+  .choices:has(.choices__list--dropdown.is-active) .choices__list--single .choices__item::after {
+    @apply bg-navy-500;
+  }
+
+  .choices.is-focused .choices__item::after,
+  .choices.is-open .choices__item::after {
+    @apply bg-navy-500;
+  }
+
+  .choices.is-open .choices__list--single .choices__item::after {
+    @apply rotate-180;
+  }
+
+  /* ---------- Dropdown ---------- */
+
+  .choices__list--dropdown {
+    @apply absolute left-0 top-full hidden w-full rounded-b-xl border border-navy-500 bg-white-pure overflow-hidden z-50;
+  }
+
+  .choices__list--dropdown.is-active {
+    @apply block border-t-0;
+  }
+
+  .choices__list--dropdown .choices__item {
+    @apply px-4 py-3 text-sm font-light cursor-pointer relative z-1000 bg-white-pure;
+  }
+
+  .choices__list--dropdown .choices__item.is-highlighted {
+    @apply bg-[var(--color-lilac-100)];
+  }
+
+  /* Scroll when more than 3 items */
+  .choices__list--dropdown {
+    max-height: 180px;
+    overflow-y: auto;
+  }
+
+  /* ---------- Disabled ---------- */
+
+  .choices.is-disabled .choices__inner {
+    @apply border-disabled bg-disabled text-gray-400 opacity-70 cursor-not-allowed;
+  }
+
+  .choices .choices__item--disabled {
+    @apply border-gray-300 text-gray-400 cursor-not-allowed;
+  }
+
+  /* ---------- Error ---------- */
+
+  .choices.is-error .choices__inner {
+    @apply border-red-400 bg-red-50;
+  }
+
+  .choices.is-error .choices__list--single .choices__item {
+    @apply text-red-600;
+  }
+}

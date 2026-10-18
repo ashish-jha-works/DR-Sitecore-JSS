@@ -1,0 +1,150 @@
+id: contract-renewal-collection-scheduled
+routeFields:
+  pageTitle: Contract Renewal - Scheduled - Dubai Residential
+fields:
+  pageTitle: Dubai Properties - Scheduled
+placeholders:
+  jss-main:
+    - componentName: Header
+      fields:
+        logoLink:
+          href: /login
+          text: Home
+          target: _self
+          title: Go to Home
+        logoImage:
+          src: /data/media/img/svg/dubai-residential-logo-white.svg
+          alt: Dubai Residential Logo
+          width: 90
+          height: 56
+        navigationLinks:
+          - fields:
+              link:
+                href: /dashboard
+                text: Home
+                target: _self
+          - fields:
+              link:
+                href: /service-requests
+                text: Services
+                target: _self
+          - fields:
+              link:
+                href: /move-out
+                text: Move Out
+                target: _self
+          - fields:
+              link:
+                href: /move-in
+                text: Move In
+                target: _self
+          - fields:
+              link:
+                href: /community
+                text: Community
+                target: _self
+          - fields:
+              link:
+                href: /my-documents
+                text: My Documents
+                target: _self
+          - fields:
+              link:
+                href: /offers
+                text: Offers
+                target: _self
+          - fields:
+              link:
+                href: /contract-renewal
+                text: Contract Renewal
+                target: _self
+          - fields:
+              link:
+                href: /payment
+                text: Payments
+                target: _self
+          - fields:
+              link:
+                href: /faqs
+                text: Faqs
+                target: _self
+        pageName:
+          value: Contract Renewal
+    - componentName: PageBanner
+      fields:
+        heading: 'Contract Renewal'
+        bannerImage:
+          src: /data/media/img/service-requests-banner.png
+          alt: Contract Renewal
+          width: 1920
+          height: 300
+    - componentName: CollectionScheduled
+      fields:
+        headingIcon:
+          value: |
+            <svg width="32" height="32" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.7209 3.14086H20.8043V2.15368C20.8043 1.89187 20.7018 1.64077 20.5195 1.45564C20.3372 1.27051 20.0899 1.1665 19.832 1.1665C19.5742 1.1665 19.3269 1.27051 19.1446 1.45564C18.9622 1.64077 18.8598 1.89187 18.8598 2.15368V3.14086H9.13759V2.15368C9.13759 1.89187 9.03516 1.64077 8.85283 1.45564C8.6705 1.27051 8.42321 1.1665 8.16536 1.1665C7.90751 1.1665 7.66023 1.27051 7.4779 1.45564C7.29557 1.64077 7.19314 1.89187 7.19314 2.15368V3.14086H4.27648C3.76078 3.14086 3.2662 3.34888 2.90155 3.71914C2.53689 4.0894 2.33203 4.59159 2.33203 5.11522V24.8588C2.33203 25.3824 2.53689 25.8846 2.90155 26.2549C3.2662 26.6252 3.76078 26.8332 4.27648 26.8332H23.7209C24.2366 26.8332 24.7312 26.6252 25.0958 26.2549C25.4605 25.8846 25.6654 25.3824 25.6654 24.8588V5.11522C25.6654 4.59159 25.4605 4.0894 25.0958 3.71914C24.7312 3.34888 24.2366 3.14086 23.7209 3.14086ZM7.19314 5.11522V6.1024C7.19314 6.36422 7.29557 6.61531 7.4779 6.80044C7.66023 6.98557 7.90751 7.08958 8.16536 7.08958C8.42321 7.08958 8.6705 6.98557 8.85283 6.80044C9.03516 6.61531 9.13759 6.36422 9.13759 6.1024V5.11522H18.8598V6.1024C18.8598 6.36422 18.9622 6.61531 19.1446 6.80044C19.3269 6.98557 19.5742 7.08958 19.832 7.08958C20.0899 7.08958 20.3372 6.98557 20.5195 6.80044C20.7018 6.61531 20.8043 6.36422 20.8043 6.1024V5.11522H23.7209V9.06394H4.27648V5.11522H7.19314ZM23.7209 24.8588H4.27648V11.0383H23.7209V24.8588Z" fill="#9CA7FF"/>
+            </svg>
+        collectionTitle:
+          value: Collection scheduled
+        collectionDescription:
+          value: Please review your collection details below.
+        deliveryTitle:
+          value: Delivery scheduled
+        deliveryDescription:
+          value: Please review your delivery details below.
+        collectionAddressLabel:
+          value: Collection address
+        deliveryAddressLabel:
+          value: Delivery address
+        collectionDateTimeLabel:
+          value: Date and time of collection
+        deliveryDateTimeLabel:
+          value: Date and time of delivery
+        rescheduleCTALabel:
+          value: RESCHEDULE
+        rescheduleModalIcon:
+          value: |
+            <svg width="31" height="22" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30.2198 7.46261L24.4391 0.727347C24.2485 0.499603 24.0102 0.316441 23.7411 0.190771C23.472 0.0651005 23.1786 -1.95117e-05 22.8816 4.38534e-09H2.03099C1.49234 4.38534e-09 0.975746 0.213978 0.594862 0.594862C0.213978 0.975746 0 1.49234 0 2.03099V16.2479C0 16.7866 0.213978 17.3031 0.594862 17.684C0.975746 18.0649 1.49234 18.2789 2.03099 18.2789H4.18891C4.41263 19.1526 4.92078 19.9271 5.63326 20.4801C6.34574 21.0331 7.22202 21.3333 8.12395 21.3333C9.02588 21.3333 9.90216 21.0331 10.6146 20.4801C11.3271 19.9271 11.8353 19.1526 12.059 18.2789H18.4058C18.6295 19.1526 19.1377 19.9271 19.8502 20.4801C20.5627 21.0331 21.4389 21.3333 22.3409 21.3333C23.2428 21.3333 24.1191 21.0331 24.8316 20.4801C25.544 19.9271 26.0522 19.1526 26.2759 18.2789H28.4338C28.9725 18.2789 29.4891 18.0649 29.8699 17.684C30.2508 17.3031 30.4648 16.7866 30.4648 16.2479V8.12395C30.4648 7.88131 30.3779 7.64671 30.2198 7.46261ZM27.2393 7.10846H20.3099V2.03099H22.8816L27.2393 7.10846ZM11.1704 7.10846V2.03099H18.2789V7.10846H11.1704ZM9.13944 2.03099V7.10846H2.03099V2.03099H9.13944ZM8.12395 19.2944C7.72226 19.2944 7.32959 19.1753 6.99559 18.9521C6.6616 18.7289 6.40128 18.4117 6.24756 18.0406C6.09384 17.6695 6.05362 17.2611 6.13199 16.8672C6.21035 16.4732 6.40379 16.1113 6.68783 15.8273C6.97186 15.5432 7.33375 15.3498 7.72772 15.2714C8.1217 15.1931 8.53006 15.2333 8.90117 15.387C9.27229 15.5407 9.58949 15.801 9.81265 16.135C10.0358 16.469 10.1549 16.8617 10.1549 17.2634C10.1549 17.802 9.94096 18.3186 9.56007 18.6995C9.17919 19.0804 8.6626 19.2944 8.12395 19.2944ZM22.3409 19.2944C21.9392 19.2944 21.5465 19.1753 21.2125 18.9521C20.8785 18.7289 20.6182 18.4117 20.4645 18.0406C20.3108 17.6695 20.2705 17.2611 20.3489 16.8672C20.4273 16.4732 20.6207 16.1113 20.9047 15.8273C21.1888 15.5432 21.5507 15.3498 21.9446 15.2714C22.3386 15.1931 22.747 15.2333 23.1181 15.387C23.4892 15.5407 23.8064 15.801 24.0296 16.135C24.2527 16.469 24.3718 16.8617 24.3718 17.2634C24.3718 17.802 24.1579 18.3186 23.777 18.6995C23.3961 19.0804 22.8795 19.2944 22.3409 19.2944ZM26.2759 16.2479C26.0522 15.3742 25.544 14.5997 24.8316 14.0467C24.1191 13.4936 23.2428 13.1935 22.3409 13.1935C21.4389 13.1935 20.5627 13.4936 19.8502 14.0467C19.1377 14.5997 18.6295 15.3742 18.4058 16.2479H12.059C11.8353 15.3742 11.3271 14.5997 10.6146 14.0467C9.90216 13.4936 9.02588 13.1935 8.12395 13.1935C7.22202 13.1935 6.34574 13.4936 5.63326 14.0467C4.92078 14.5997 4.41263 15.3742 4.18891 16.2479H2.03099V9.13944H28.4338V16.2479H26.2759Z" fill="#9CA7FF"/>
+            </svg>
+        rescheduleCollectionModalTitle:
+          value: Reschedule document collection
+        rescheduleDeliveryModalTitle:
+          value: Reschedule document delivery
+        rescheduleCollectionModalDescription:
+          value: Select your preferred date and time for collection of your documents.
+        rescheduleDeliveryModalDescription:
+          value: Select your preferred date and time for delivery of your documents.
+        rescheduleTimeslotSelectionMessage:
+          value: Select your preferred date to view our available time slots.
+        rescheduleHolidayBannerText:
+          value: Kindly be advised that courier pickup cannot be booked on public holidays.
+        rescheduleCollectionCTALabel:
+          value: RESCHEDULE COLLECTION
+        rescheduleDeliveryCTALabel:
+          value: RESCHEDULE DELIVERY
+        reschedulingCTALabel:
+          value: RESCHEDULING...
+        collectionReminderTitle:
+          value: Reminder - Keep these documents ready for collection
+        collectionReminderDescription:
+          value: Please ensure you have signed physical copies of the documents below ready to be collected.
+        deliveryReminderTitle:
+          value: Reminder - Keep these documents ready for collection
+        deliveryReminderDescription:
+          value: Once you have received the documents from our team, please ensure you have signed physical copies of the documents below ready to be collected.
+        renewalProposalLabel:
+          value: Renewal proposal
+        pdcDocumentLabel:
+          value: Post dated cheques
+        directDebitFormLabel:
+          value: Direct Debit Form
+        creditCardSideLetterLabel:
+          value: Side letter for credit card
+        directDebitSideLetterLabel:
+          value: Side letter for direct debit
+        viewPdcCTALabel:
+          value: View PDCs
+        checkRenewalSummaryCTALabel:
+          value: CHECK RENEWAL SUMMARY

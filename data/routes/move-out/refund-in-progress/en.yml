@@ -1,0 +1,183 @@
+id: refund-in-progress
+
+fields:
+  pageTitle: Dubai Properties - Move-Out Refund In Progress
+placeholders:
+  jss-main:
+    - componentName: Header
+      fields:
+        logoLink:
+          href: /login
+          text: Home
+          target: _self
+          title: Go to Home
+
+        logoImage:
+          src: /data/media/img/svg/dubai-residential-logo-white.svg
+          alt: Dubai Residential Logo
+          width: 90
+          height: 56
+
+        navigationLinks:
+          - fields:
+              link:
+                href: /dashboard
+                text: Home
+                target: _self
+          - fields:
+              link:
+                href: /service-requests
+                text: Services
+                target: _self
+          - fields:
+              link:
+                href: /move-out
+                text: Move Out
+                target: _self
+          - fields:
+              link:
+                href: /move-in
+                text: Move In
+                target: _self
+          - fields:
+              link:
+                href: /community
+                text: Community
+                target: _self
+          - fields:
+              link:
+                href: /my-documents
+                text: My Documents
+                target: _self
+          - fields:
+              link:
+                href: /offers
+                text: Offers
+                target: _self
+          - fields:
+              link:
+                href: /payment
+                text: Payments
+                target: _self
+          - fields:
+              link:
+                href: /faqs
+                text: Faqs
+                target: _self
+
+        pageName:
+          value: Move Out
+    - componentName: PageBanner
+      fields:
+        heading: 'Move-Out'
+        bannerImage:
+          src: /data/media/img/service-requests-banner.png
+          alt: Move-Out
+          width: 1920
+          height: 300
+    - componentName: MoveOutRefundInProgress
+      fields:
+        titleIcon: |
+          <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M27.7333 0H2.13333C1.56754 0 1.02492 0.224761 0.624839 0.624839C0.224761 1.02492 0 1.56754 0 2.13333V19.2C0 19.7658 0.224761 20.3084 0.624839 20.7085C1.02492 21.1086 1.56754 21.3333 2.13333 21.3333H27.7333C28.2991 21.3333 28.8418 21.1086 29.2418 20.7085C29.6419 20.3084 29.8667 19.7658 29.8667 19.2V2.13333C29.8667 1.56754 29.6419 1.02492 29.2418 0.624839C28.8418 0.224761 28.2991 0 27.7333 0ZM27.7333 2.13333V5.33333H2.13333V2.13333H27.7333ZM27.7333 19.2H2.13333V7.46667H27.7333V19.2ZM25.6 16C25.6 16.2829 25.4876 16.5542 25.2876 16.7542C25.0875 16.9543 24.8162 17.0667 24.5333 17.0667H20.2667C19.9838 17.0667 19.7125 16.9543 19.5124 16.7542C19.3124 16.5542 19.2 16.2829 19.2 16C19.2 15.7171 19.3124 15.4458 19.5124 15.2458C19.7125 15.0457 19.9838 14.9333 20.2667 14.9333H24.5333C24.8162 14.9333 25.0875 15.0457 25.2876 15.2458C25.4876 15.4458 25.6 15.7171 25.6 16ZM17.0667 16C17.0667 16.2829 16.9543 16.5542 16.7542 16.7542C16.5542 16.9543 16.2829 17.0667 16 17.0667H13.8667C13.5838 17.0667 13.3125 16.9543 13.1124 16.7542C12.9124 16.5542 12.8 16.2829 12.8 16C12.8 15.7171 12.9124 15.4458 13.1124 15.2458C13.3125 15.0457 13.5838 14.9333 13.8667 14.9333H16C16.2829 14.9333 16.5542 15.0457 16.7542 15.2458C16.9543 15.4458 17.0667 15.7171 17.0667 16Z" fill="#9CA7FF"/>
+          </svg>
+        title: 'Your refund is processing'
+        processingTimePrefix: 'Average processing time:'
+        processingTimeSuffix: 'days after approval of final utility bills.'
+        beneficiaryNameLabel: 'Beneficiary name:'
+        beneficiaryBankLabel: 'Beneficiary bank:'
+        paymentMethodLabel: 'Payment method:'
+        accountNumberLabel: 'Account number:'
+        phoneIcon: |
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.34999 23.4913C1.61151 25.4787 2.58753 27.303 4.09575 28.6233C5.60398 29.9437 7.54127 30.6699 9.5458 30.6663C21.1912 30.6663 30.666 21.1916 30.666 9.54612C30.6696 7.5416 29.9434 5.60431 28.623 4.09608C27.3026 2.58785 25.4784 1.61183 23.491 1.35031C22.9884 1.28895 22.4795 1.39176 22.0402 1.64341C21.6009 1.89506 21.2547 2.28204 21.0534 2.74659L17.9557 9.66199V9.67959C17.8016 10.0352 17.738 10.4234 17.7705 10.8096C17.803 11.1958 17.9306 11.568 18.142 11.8928C18.1684 11.9324 18.1963 11.9691 18.2256 12.0057L21.2792 15.6255C20.1807 17.8578 17.8457 20.1722 15.5841 21.2737L12.0142 18.2362C11.9792 18.2067 11.9424 18.1793 11.9042 18.1541C11.5797 17.9376 11.2062 17.8055 10.8178 17.7696C10.4293 17.7337 10.038 17.7953 9.67927 17.9487L9.6602 17.9575L2.75067 21.0537C2.2853 21.2543 1.89737 21.6002 1.64489 22.0395C1.39241 22.4789 1.28896 22.9883 1.34999 23.4913ZM3.67908 23.198C3.67908 23.198 3.68934 23.198 3.69521 23.198L10.5886 20.1106L14.16 23.1481C14.1946 23.1775 14.2309 23.2049 14.2685 23.2303C14.6062 23.4555 14.9966 23.5894 15.4015 23.6187C15.8063 23.648 16.2119 23.5718 16.5785 23.3975C19.3256 22.0701 22.0639 19.3524 23.3927 16.6346C23.5687 16.2706 23.6476 15.8674 23.622 15.464C23.5963 15.0605 23.4668 14.6706 23.2461 14.3319C23.2212 14.2921 23.1932 14.2544 23.1625 14.219L20.1059 10.5948L23.1859 3.7014C23.1865 3.69555 23.1865 3.68965 23.1859 3.6838C24.6082 3.86933 25.9141 4.56698 26.8591 5.6461C27.804 6.72521 28.3232 8.11177 28.3193 9.54612C28.3139 14.5235 26.3342 19.2955 22.8147 22.815C19.2951 26.3345 14.5232 28.3142 9.5458 28.3196C8.11233 28.3246 6.72614 27.8072 5.6464 26.8643C4.56666 25.9215 3.8673 24.6176 3.67908 23.1965V23.198Z" fill="#9CA7FF"/>
+          </svg>
+        queryPrefixText: 'For any queries, please reach out to us at'
+        customerCareNumber: '800 9933'
+        warningIcon: |
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 1C9.82441 1 7.69767 1.64514 5.88873 2.85383C4.07979 4.06253 2.66989 5.78049 1.83733 7.79048C1.00477 9.80047 0.786929 12.0122 1.21137 14.146C1.6358 16.2798 2.68345 18.2398 4.22183 19.7782C5.76021 21.3165 7.72022 22.3642 9.85401 22.7886C11.9878 23.2131 14.1995 22.9952 16.2095 22.1627C18.2195 21.3301 19.9375 19.9202 21.1462 18.1113C22.3549 16.3023 23 14.1756 23 12C22.9969 9.08356 21.837 6.28746 19.7748 4.22523C17.7125 2.16299 14.9164 1.00308 12 1ZM12 21.3077C10.1591 21.3077 8.35957 20.7618 6.82893 19.7391C5.29829 18.7163 4.10529 17.2627 3.40082 15.5619C2.69634 13.8611 2.51202 11.9897 2.87116 10.1842C3.2303 8.37864 4.11677 6.72017 5.41847 5.41847C6.72018 4.11676 8.37865 3.23029 10.1842 2.87115C11.9897 2.51201 13.8611 2.69634 15.5619 3.40081C17.2627 4.10529 18.7163 5.29828 19.7391 6.82892C20.7618 8.35956 21.3077 10.1591 21.3077 12C21.3049 14.4677 20.3234 16.8335 18.5784 18.5784C16.8335 20.3234 14.4677 21.3049 12 21.3077ZM11.1538 12.8462V6.92308C11.1538 6.69866 11.243 6.48344 11.4017 6.32475C11.5604 6.16607 11.7756 6.07692 12 6.07692C12.2244 6.07692 12.4396 6.16607 12.5983 6.32475C12.757 6.48344 12.8462 6.69866 12.8462 6.92308V12.8462C12.8462 13.0706 12.757 13.2858 12.5983 13.4445C12.4396 13.6032 12.2244 13.6923 12 13.6923C11.7756 13.6923 11.5604 13.6032 11.4017 13.4445C11.243 13.2858 11.1538 13.0706 11.1538 12.8462ZM13.2692 16.6538C13.2692 16.9049 13.1948 17.1503 13.0553 17.359C12.9159 17.5677 12.7176 17.7304 12.4857 17.8265C12.2538 17.9225 11.9986 17.9477 11.7524 17.8987C11.5062 17.8497 11.28 17.7288 11.1025 17.5513C10.925 17.3738 10.8041 17.1477 10.7552 16.9015C10.7062 16.6553 10.7313 16.4001 10.8274 16.1681C10.9235 15.9362 11.0861 15.738 11.2949 15.5985C11.5036 15.4591 11.749 15.3846 12 15.3846C12.3366 15.3846 12.6595 15.5183 12.8975 15.7564C13.1355 15.9944 13.2692 16.3172 13.2692 16.6538Z" fill="#EE9235"/>
+          </svg>
+        warningMessage: 'Your access to the portal / app will be disabled once your Move-Out is complete. If you are moving to another apartment/villa within Dubai Residential communities, please register again on our portal / app.'
+        backToHomeText: 'BACK TO HOME'
+        backToHomeLink:
+          href: /dashboard
+          text: BACK TO HOME
+          target: _self
+          title: Back to Home
+        loadingText: 'Loading details...'
+  jss-footer:
+    - componentName: Footer
+      fields:
+        version: 2
+        logoLink: { href: '/', text: 'Home', target: '_self', title: 'Go to Home' }
+        logoImage:
+          src: '/data/media/img/svg/dubai-residential-logo-white.svg'
+          alt: 'Dubai Residential White Logo'
+          width: 140
+          height: 87
+        appStoreLink:
+          {
+            href: 'https://apps.apple.com/app-link',
+            text: 'Download on the App Store',
+            target: '_blank',
+            title: 'Go to App Store',
+          }
+        appStoreImage:
+          { src: '/data/media/img/svg/app-store.svg', alt: 'App Store', width: 82, height: 50 }
+        googlePlayLink:
+          {
+            href: 'https://play.google.com/store-link',
+            text: 'Get it on Google Play',
+            target: '_blank',
+            title: 'Go to Google Play',
+          }
+        googlePlayImage:
+          { src: '/data/media/img/svg/play-store.svg', alt: 'Play Store', width: 82, height: 50 }
+        customerCareLabel: 'Customer Care'
+        customerCareNumber: '800 9933'
+        customerCareIcon: |
+          <svg width="24" height="24" viewBox="0 0 24 24"><path d="M1.01281 17.6187C1.20895 19.1093 1.94098 20.4775 3.07215 21.4677C4.20333 22.458 5.65631 23.0027 7.15972 23C15.8939 23 23 15.8939 23 7.15984C23.0027 5.65644 22.458 4.20347 21.4677 3.0723C20.4774 1.94113 19.1093 1.20912 17.6187 1.01298C17.2418 0.966954 16.8601 1.04407 16.5306 1.2328C16.2011 1.42154 15.9415 1.71178 15.7905 2.06019L13.4672 7.24674V7.25994C13.3516 7.52664 13.3039 7.81782 13.3283 8.10747C13.3526 8.39712 13.4484 8.67623 13.6069 8.91985C13.6267 8.94955 13.6476 8.97705 13.6696 9.00455L15.9599 11.7194C15.136 13.3936 13.3847 15.1294 11.6885 15.9555L9.01105 13.6774C8.98476 13.6553 8.95721 13.6347 8.92855 13.6158C8.68512 13.4534 8.40506 13.3543 8.11369 13.3274C7.82232 13.3006 7.52885 13.3467 7.25982 13.4618L7.24552 13.4684L2.06333 15.7905C1.7143 15.941 1.42335 16.2004 1.23399 16.5299C1.04463 16.8594 0.967039 17.2414 1.01281 17.6187Z" fill="currentColor"/></svg>
+        copyrightText: '© 2026. DUBAI RESIDENTIAL.'
+        downloadAppText: 'Download the DUBAI RESIDENTIAL LIFE APP TODAY'
+        navLinks:
+          - fields:
+              link:
+                {
+                  href: 'http://www.dubairesidential.ae/',
+                  text: 'PROPERTY SEARCH',
+                  target: '_blank',
+                }
+          - fields:
+              link:
+                {
+                  href: 'https://dubairesidential.ae/en/contact-us#contact-layout-page-form',
+                  text: 'CONTACT US',
+                  target: '_blank',
+                }
+        legalLinks:
+          - fields:
+              link: { href: '/privacy-notice', text: 'PRIVACY NOTICE', target: '_self' }
+          - fields:
+              link: { href: '/cookie-notice', text: 'COOKIE NOTICE', target: '_self' }
+          - fields:
+              link: { href: '/terms-and-conditions', text: 'TERMS AND CONDITIONS', target: '_self' }
+        socialLinks:
+          - fields:
+              link:
+                {
+                  href: 'https://www.youtube.com/@Dubai.Residential',
+                  text: 'Youtube',
+                  target: '_blank',
+                }
+              icon: |
+                <svg width="20" height="20" viewBox="0 0 24 24"><path d="M20.5968 5.44802C21.544 5.69497 22.2883 6.41992 22.5418 7.34243H22.54C23 9.01282 23 12.5 23 12.5C23 12.5 23 15.9872 22.54 17.6576C22.2865 18.5801 21.5421 19.305 20.595 19.552C18.88 20 12 20 12 20C12 20 5.12002 20 3.405 19.552C2.45785 19.305 1.71353 18.5801 1.45999 17.6576C1 15.9872 1 12.5 1 12.5C1 12.5 1 9.01282 1.45999 7.34243C1.71353 6.41992 2.45785 5.69497 3.405 5.44802C5.12002 5 12 5 12 5C12 5 18.88 5 20.5968 5.44802ZM15.517 12.5L9.79964 15.7138V9.28622L15.517 12.5Z" fill="currentColor"/></svg>
+          - fields:
+              link:
+                {
+                  href: 'https://www.facebook.com/DubaiAMLife/',
+                  text: 'Facebook',
+                  target: '_blank',
+                }
+              icon: |
+                <svg width="20" height="20" viewBox="0 0 24 24"><path d="M13.125 23V13.1602H16.1667L16.6667 9.25H13.125V6.54297C13.125 5.91276 13.2361 5.45443 13.4583 5.16797C13.7361 4.82422 14.25 4.65234 15 4.65234H17V1.17188C16.25 1.05729 15.2778 1 14.0833 1C12.6111 1 11.4306 1.45117 10.5417 2.35352C9.65278 3.25586 9.20833 4.52344 9.20833 6.15625V9.25H6V13.1602H9.20833V23H13.125Z" fill="currentColor"/></svg>

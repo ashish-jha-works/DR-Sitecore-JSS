@@ -1,0 +1,11 @@
+@utility container-sm {
+  @apply mx-auto px-3 max-w-242.5;
+}
+
+@utility container {
+  @apply mx-auto px-3 max-w-full sm:max-w-135 md:max-w-180 lg:max-w-240 xl:max-w-285 2xl:max-w-330;
+}
+
+@utility container-full {
+  @apply max-w-480 mx-auto px-3;
+}

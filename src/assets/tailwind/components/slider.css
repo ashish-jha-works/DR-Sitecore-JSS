@@ -1,0 +1,37 @@
+@layer components {
+  .slider-container {
+    @apply relative w-64;
+  }
+
+  /* Track */
+  .slider-track {
+    @apply relative h-1 rounded-full bg-gray-300;
+  }
+
+  .slider-track-active {
+    @apply absolute h-1 rounded-full bg-lilac-500;
+  }
+
+  /* Swiper wrapper */
+  .slider-swiper {
+    @apply absolute inset-0 pointer-events-none;
+  }
+
+  /* Handles */
+  .slider-handle {
+    @apply absolute top-1/2 -translate-y-1/2
+           h-4 w-4 rounded-full
+           bg-white border-2 border-lilac-500
+           pointer-events-auto
+           appearance-none
+           cursor-pointer;
+  }
+
+  .slider-handle::-webkit-slider-thumb {
+    @apply appearance-none h-4 w-4 rounded-full bg-white;
+  }
+
+  .slider-handle::-moz-range-thumb {
+    @apply h-4 w-4 rounded-full bg-white border-none;
+  }
+}

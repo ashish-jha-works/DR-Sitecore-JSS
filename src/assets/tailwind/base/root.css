@@ -1,0 +1,56 @@
+@utility custom-pagination {
+  .custom-bullet {
+    @apply size-2! rounded-full! bg-white-pure! opacity-100!;
+    &.swiper-pagination-bullet-active {
+      @apply bg-lilac-500!;
+    }
+  }
+}
+
+@utility swiper-navigation {
+  @apply transition-default;
+  &.swiper-button-disabled {
+    @apply opacity-0;
+  }
+}
+
+@utility no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+}
+
+@layer base {
+  :root {
+    --color-border: var(--color-lilac-500);
+  }
+
+  a,
+  .link-btn {
+    @apply cursor-pointer inline-flex no-underline text-white-pure transition-default hover:text-lilac-300;
+  }
+
+  .skelton-animation {
+    @apply relative bg-silver-chalice-100 overflow-hidden after:content-[''] after:absolute after:top-0 after:-left-full after:h-full after:w-full after:bg-linear-to-r after:from-transparent after:via-white-pure/40 after:to-transparent after:animate-shine;
+  }
+
+  .dirham-logo {
+    @apply font-dirham-glyph;
+
+    .dirham-text {
+      @apply hidden;
+    }
+
+    &::after {
+      content: 'D';
+    }
+  }
+
+  .grecaptcha-badge {
+    @apply hidden!;
+  }
+
+  .custom-recaptcha-popup {
+    @apply top-[50%]! translate-y-[-50%];
+  }
+}

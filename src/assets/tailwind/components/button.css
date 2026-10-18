@@ -1,0 +1,43 @@
+@utility btn {
+  @apply inline-flex justify-center items-center gap-3 w-full uppercase text-xs leading-4 font-bold tracking-[2px] px-6 py-4 rounded-xl border border-solid border-lilac-500 cursor-pointer inner-shadow md:text-[14px] md:leading-5 md:px-8 md:py-5;
+
+  & svg {
+    @apply size-5 md:size-6;
+  }
+}
+
+@utility btn-primary {
+  @apply btn text-white-pure bg-lilac-500;
+
+  &:hover,
+  &:active {
+    @apply bg-lilac-hover;
+  }
+
+  &:disabled,
+  &.disabled {
+    @apply bg-silver-chalice-400 border-silver-chalice-400 pointer-events-none;
+  }
+}
+
+@utility btn-secondary {
+  @apply btn text-lilac-500 bg-white-pure;
+
+  &:hover,
+  &:active {
+    @apply text-white-pure bg-lilac-hover;
+  }
+
+  &:disabled,
+  &.disabled {
+    @apply text-silver-chalice-400 bg-transparent border-silver-chalice-400 pointer-events-none;
+  }
+}
+
+@utility btn-sm {
+  @apply btn max-w-62.5 tracking-normal;
+}
+
+@utility btn-xs {
+  @apply btn max-w-35 py-2.5! text-xs! font-medium! tracking-normal;
+}

@@ -1,0 +1,30 @@
+@layer components {
+  /* Focus */
+  .search-input:focus {
+    @apply border-[var(--color-navy-500)];
+  }
+
+  /* Icon */
+  .search-icon {
+    @apply absolute right-3 top-1/2 -translate-y-1/2 
+    text-lilac-500 cursor-pointer;
+  }
+
+  .search-wrapper:focus-within .search-icon {
+    @apply text-navy-500;
+  }
+
+  /* Disabled */
+  .form-group.disabled .search-input {
+    @apply bg-silver-chalice-100 cursor-not-allowed text-primary;
+  }
+
+  .form-group.disabled .search-icon {
+    @apply text-silver-chalice-600;
+  }
+
+  /* Error Icon*/
+  .form-group.error .search-icon {
+    @apply text-danger-500;
+  }
+}

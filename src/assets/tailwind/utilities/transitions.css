@@ -1,0 +1,7 @@
+@utility transition-default {
+  transition: all 0.3s ease;
+}
+
+@utility transition-safe {
+  transition: all 0.2s ease;
+}

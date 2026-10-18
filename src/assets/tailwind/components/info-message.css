@@ -1,0 +1,42 @@
+@utility info-message-base {
+  @apply flex flex-col gap-3 p-3 rounded-xl
+         text-[14px] leading-5 font-light border
+         md:flex-row md:items-center md:gap-4
+         md:text-base md:leading-6 md:py-3 md:px-5;
+
+  & > svg {
+    @apply min-w-5 md:min-w-6 min-h-5 md:min-h-6 size-5 md:size-6;
+  }
+}
+
+@utility info-message-normal {
+  @apply info-message-base bg-lilac-100 border-lilac-500 text-navy-500;
+
+  & > svg {
+    @apply text-lilac-500;
+  }
+}
+
+@utility info-message-warning {
+  @apply info-message-base bg-warning-50 border-warning-500 text-warning-900;
+
+  & > svg {
+    @apply text-warning-500;
+  }
+}
+
+@utility info-message-error {
+  @apply info-message-base bg-danger-50 border-danger-500 text-danger-900;
+
+  & > svg {
+    @apply text-danger-500;
+  }
+}
+
+@utility info-message-success {
+  @apply info-message-base bg-success-50 border-success-500 text-success-900;
+
+  & > svg {
+    @apply text-success-500;
+  }
+}

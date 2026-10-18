@@ -1,0 +1,150 @@
+id: contract-renewal-schedule-pickup
+routeFields:
+  pageTitle: Contract Renewal - Schedule Collection - Dubai Residential
+fields:
+  pageTitle: Dubai Properties - Schedule Collection
+placeholders:
+  jss-main:
+    - componentName: Header
+      fields:
+        logoLink:
+          href: /login
+          text: Home
+          target: _self
+          title: Go to Home
+        logoImage:
+          src: /data/media/img/svg/dubai-residential-logo-white.svg
+          alt: Dubai Residential Logo
+          width: 90
+          height: 56
+        navigationLinks:
+          - fields:
+              link:
+                href: /dashboard
+                text: Home
+                target: _self
+          - fields:
+              link:
+                href: /service-requests
+                text: Services
+                target: _self
+          - fields:
+              link:
+                href: /move-out
+                text: Move Out
+                target: _self
+          - fields:
+              link:
+                href: /move-in
+                text: Move In
+                target: _self
+          - fields:
+              link:
+                href: /community
+                text: Community
+                target: _self
+          - fields:
+              link:
+                href: /my-documents
+                text: My Documents
+                target: _self
+          - fields:
+              link:
+                href: /offers
+                text: Offers
+                target: _self
+          - fields:
+              link:
+                href: /contract-renewal
+                text: Contract Renewal
+                target: _self
+          - fields:
+              link:
+                href: /payment
+                text: Payments
+                target: _self
+          - fields:
+              link:
+                href: /faqs
+                text: Faqs
+                target: _self
+        pageName:
+          value: Contract Renewal
+    - componentName: PageBanner
+      fields:
+        heading: 'Contract Renewal'
+        bannerImage:
+          src: /data/media/img/service-requests-banner.png
+          alt: Contract Renewal
+          width: 1920
+          height: 300
+    - componentName: ScheduledCollection
+      fields:
+        headingIcon:
+          value: |
+            <svg width="32" height="32" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.6649 5.59696L18.3293 0.545511C18.1864 0.374702 18.0077 0.237331 17.8058 0.143078C17.604 0.0488253 17.384 -1.46338e-05 17.1612 3.28901e-09H1.52324C1.11925 3.28901e-09 0.73181 0.160484 0.446147 0.446147C0.160484 0.73181 0 1.11925 0 1.52324V12.1859C0 12.5899 0.160484 12.9774 0.446147 13.263C0.73181 13.5487 1.11925 13.7092 1.52324 13.7092H3.14168C3.30947 14.3645 3.69058 14.9453 4.22494 15.3601C4.7593 15.7749 5.41651 16 6.09296 16C6.76941 16 7.42662 15.7749 7.96098 15.3601C8.49534 14.9453 8.87646 14.3645 9.04424 13.7092H13.8044C13.9722 14.3645 14.3533 14.9453 14.8876 15.3601C15.422 15.7749 16.0792 16 16.7556 16C17.4321 16 18.0893 15.7749 18.6237 15.3601C19.158 14.9453 19.5391 14.3645 19.7069 13.7092H21.3254C21.7294 13.7092 22.1168 13.5487 22.4025 13.263C22.6881 12.9774 22.8486 12.5899 22.8486 12.1859V6.09296C22.8486 5.91099 22.7834 5.73503 22.6649 5.59696ZM20.4295 5.33134H15.2324V1.52324H17.1612L20.4295 5.33134ZM8.37782 5.33134V1.52324H13.7092V5.33134H8.37782ZM6.85458 1.52324V5.33134H1.52324V1.52324H6.85458ZM6.09296 14.4708C5.79169 14.4708 5.49719 14.3814 5.2467 14.2141C4.9962 14.0467 4.80096 13.8088 4.68567 13.5305C4.57038 13.2521 4.54022 12.9459 4.59899 12.6504C4.65776 12.3549 4.80284 12.0835 5.01587 11.8705C5.2289 11.6574 5.50031 11.5123 5.79579 11.4536C6.09127 11.3948 6.39755 11.425 6.67588 11.5403C6.95422 11.6555 7.19212 11.8508 7.35949 12.1013C7.52687 12.3518 7.6162 12.6463 7.6162 12.9475C7.6162 13.3515 7.45572 13.739 7.17006 14.0246C6.88439 14.3103 6.49695 14.4708 6.09296 14.4708ZM16.7556 14.4708C16.4544 14.4708 16.1599 14.3814 15.9094 14.2141C15.6589 14.0467 15.4636 13.8088 15.3484 13.5305C15.2331 13.2521 15.2029 12.9459 15.2617 12.6504C15.3204 12.3549 15.4655 12.0835 15.6786 11.8705C15.8916 11.6574 16.163 11.5123 16.4585 11.4536C16.754 11.3948 17.0602 11.425 17.3386 11.5403C17.6169 11.6555 17.8548 11.8508 18.0222 12.1013C18.1896 12.3518 18.2789 12.6463 18.2789 12.9475C18.2789 13.3515 18.1184 13.739 17.8327 14.0246C17.5471 14.3103 17.1596 14.4708 16.7556 14.4708ZM19.7069 12.1859C19.5391 11.5306 19.158 10.9498 18.6237 10.535C18.0893 10.1202 17.4321 9.89509 16.7556 9.89509C16.0792 9.89509 15.422 10.1202 14.8876 10.535C14.3533 10.9498 13.9722 11.5306 13.8044 12.1859H9.04424C8.87646 11.5306 8.49534 10.9498 7.96098 10.535C7.42662 10.1202 6.76941 9.89509 6.09296 9.89509C5.41651 9.89509 4.7593 10.1202 4.22494 10.535C3.69058 10.9498 3.30947 11.5306 3.14168 12.1859H1.52324V6.85458H21.3254V12.1859H19.7069Z" fill="#9CA7FF"/>
+            </svg>
+        title:
+          value: Schedule collection
+        description:
+          value: Select your preferred date and time for collection of your documents.
+        deliveryTitle:
+          value: Schedule delivery
+        deliveryDescription:
+          value: Select your preferred date and time for delivery of your documents.
+        holidayBannerText:
+          value: Kindly be advised that courier pickup cannot be booked on public holidays.
+        timeslotSelectionMessage:
+          value: Select your preferred date to view our available time slots.
+        addressIcon:
+          value: |
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M28.652 13.7655L16.9853 2.09889C16.5478 1.66164 15.9545 1.41602 15.3359 1.41602C14.7174 1.41602 14.1241 1.66164 13.6866 2.09889L2.01991 13.7655C1.80219 13.9817 1.6296 14.2389 1.51218 14.5223C1.39476 14.8057 1.33486 15.1096 1.33595 15.4164V29.4164C1.33595 29.7258 1.45887 30.0225 1.67766 30.2413C1.89645 30.4601 2.1932 30.583 2.50262 30.583H11.8359C12.1454 30.583 12.4421 30.4601 12.6609 30.2413C12.8797 30.0225 13.0026 29.7258 13.0026 29.4164V21.2497H17.6693V29.4164C17.6693 29.7258 17.7922 30.0225 18.011 30.2413C18.2298 30.4601 18.5265 30.583 18.8359 30.583H28.1693C28.4787 30.583 28.7754 30.4601 28.9942 30.2413C29.213 30.0225 29.3359 29.7258 29.3359 29.4164V15.4164C29.337 15.1096 29.2771 14.8057 29.1597 14.5223C29.0423 14.2389 28.8697 13.9817 28.652 13.7655ZM27.0026 28.2497H20.0026V20.083C20.0026 19.7736 19.8797 19.4769 19.6609 19.2581C19.4421 19.0393 19.1454 18.9164 18.8359 18.9164H11.8359C11.5265 18.9164 11.2298 19.0393 11.011 19.2581C10.7922 19.4769 10.6693 19.7736 10.6693 20.083V28.2497H3.66928V15.4164L15.3359 3.74972L27.0026 15.4164V28.2497Z" fill="#9CA7FF"/>
+            </svg>
+        addressTitle:
+          value: Address details
+        addressDescription:
+          value: Enter your address details for document collection.
+        deliveryAddressDescription:
+          value: Enter your address details for document delivery.
+        addressLine1Label:
+          value: Address line 1*
+        addressLine2Label:
+          value: Address line 2*
+        poBoxLabel:
+          value: PO box*
+        emirateLabel:
+          value: Emirate*
+        mobileNumberLabel:
+          value: Mobile number* (05X XXXXXXX)
+        editCTALabel:
+          value: EDIT
+        cancelCTALabel:
+          value: CANCEL
+        saveCTALabel:
+          value: SAVE
+        documentsReadyTitle:
+          value: Keep these documents ready for collection
+        documentsReadyDescription:
+          value: Please ensure you have signed physical copies of the documents below for collection.
+        documentsDeliveredTitle:
+          value: These documents will be delivered to you
+        documentsDeliveredDescription:
+          value: Please schedule the delivery of these documents to your home address. Once received, kindly sign them and contact our call center team to arrange collection from your home address.
+        renewalProposalLabel:
+          value: Renewal proposal
+        pdcDocumentLabel:
+          value: Post dated cheques
+        directDebitFormLabel:
+          value: Direct Debit Form
+        creditCardSideLetterLabel:
+          value: Side letter for credit card
+        directDebitSideLetterLabel:
+          value: Side letter for direct debit
+        viewPdcCTALabel:
+          value: View PDCs
+        scheduleCTALabel:
+          value: SCHEDULE
+        schedulingCTALabel:
+          value: SCHEDULING...
